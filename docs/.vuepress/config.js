@@ -29,7 +29,6 @@ module.exports = {
                 title: 'Основные правила',
                 children: [
                     '/core/',
-                    '/core/introduction',
                 ]
             },
             {
