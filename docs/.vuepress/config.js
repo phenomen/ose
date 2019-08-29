@@ -8,30 +8,30 @@ module.exports = {
                 link: '/core/'
             },
             {
-                text: 'Фэнтези',
-                link: '/fantasy/'
+                text: 'Классическое фэнтези',
+                link: '/genre-classic-fantasy/'
             },
             {
-                text: 'Магия',
-                link: '/magic/'
+                text: 'Заклинания мага и клерика',
+                link: '/spells-classic-fantasy/'
             },
             {
-                text: 'Монстры',
-                link: '/monsters/'
+                text: 'Классическое фэнтези: Монстры',
+                link: '/monsters-classic-fantasy/'
             },
             {
-                text: 'Сокровища',
-                link: '/treasures/'
+                text: 'Классическое фэнтези: Сокровища',
+                link: '/treasures-classic-fantasy/'
             }
             ,
             {
-                text: 'Дополненное фэнтези',
-                link: '/treasures/'
+                text: 'Жанровые правила: Дополненное фэнтези',
+                link: '/genre-advanced-fantasy/'
             }
             ,
             {
-                text: 'Дополненная магия',
-                link: '/treasures/'
+                text: 'Дополненное фэнтези: Заклинания иллюзиониста и друида',
+                link: '/spells-advanced-fantasy/'
             }
         ],
         sidebar: [{
@@ -41,44 +41,44 @@ module.exports = {
                 ]
             },
             {
-                title: 'Фэнтези',
+                title: 'Жанровые правила: Классическое фэнтези',
                 children: [
-                    '/fantasy/'
+                    '/genre-classic-fantasy/'
                 ]
             }
             ,
             {
-                title: 'Магия',
+                title: 'Классическое фэнтези: Заклинания мага и клерика',
                 children: [
-                    '/magic/'
+                    '/spells-classic-fantasy/'
                 ]
             }
             ,
             {
-                title: 'Монстры',
+                title: 'Классическое фэнтези: Монстры',
                 children: [
-                    '/monsters/'
+                    '/monsters-classic-fantasy/'
                 ]
             }
             ,
             {
-                title: 'Сокровища',
+                title: 'Классическое фэнтези: Сокровища',
                 children: [
-                    '/treasures/'
+                    '/treasures-classic-fantasy/'
                 ]
             }
             ,
             {
-                title: 'Дополненное фэнтези',
+                title: 'Жанровые правила: Дополненное фэнтези',
                 children: [
-                    '/advanced-fantasy/'
+                    '/genre-advanced-fantasy/'
                 ]
             }
             ,
             {
-                title: 'Дополненная магия',
+                title: 'Дополненное фэнтези: Заклинания иллюзиониста и друида',
                 children: [
-                    '/advanced-fantasy/'
+                    '/spells-advanced-fantasy/'
                 ]
             }
         ]
