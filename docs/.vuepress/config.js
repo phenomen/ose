@@ -24,6 +24,16 @@ module.exports = {
                 text: 'Сокровища',
                 link: '/treasures/'
             }
+            ,
+            {
+                text: 'Дополненное фэнтези',
+                link: '/treasures/'
+            }
+            ,
+            {
+                text: 'Дополненная магия',
+                link: '/treasures/'
+            }
         ],
         sidebar: [{
                 title: 'Основные правила',
@@ -60,14 +70,14 @@ module.exports = {
             }
             ,
             {
-                title: 'Расширенное фэнтези',
+                title: 'Дополненное фэнтези',
                 children: [
                     '/advanced-fantasy/'
                 ]
             }
             ,
             {
-                title: 'Расширенная магия',
+                title: 'Дополненная магия',
                 children: [
                     '/advanced-fantasy/'
                 ]
