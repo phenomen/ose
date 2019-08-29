@@ -1,6 +1,5 @@
 module.exports = {
     docsDir: 'docs',
-    lang: 'ru-RU',
     title: 'Old-School Essentials',
     description: 'Версия на русском языке',
     themeConfig: {
