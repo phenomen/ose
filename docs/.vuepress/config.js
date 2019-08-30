@@ -3,45 +3,14 @@ module.exports = {
     title: 'Old-School Essentials',
     description: 'Версия на русском языке',
     themeConfig: {
-        nav: [{
-                text: 'Основные правила',
-                link: '/core/'
-            },
-            {
-                text: 'Классическое фэнтези',
-                link: '/genre-classic-fantasy/'
-            },
-            {
-                text: 'Заклинания мага и клерика',
-                link: '/spells-classic-fantasy/'
-            },
-            {
-                text: 'Классическое фэнтези: Монстры',
-                link: '/monsters-classic-fantasy/'
-            },
-            {
-                text: 'Классическое фэнтези: Сокровища',
-                link: '/treasures-classic-fantasy/'
-            }
-            ,
-            {
-                text: 'Жанровые правила: Дополненное фэнтези',
-                link: '/genre-advanced-fantasy/'
-            }
-            ,
-            {
-                text: 'Дополненное фэнтези: Заклинания иллюзиониста и друида',
-                link: '/spells-advanced-fantasy/'
-            }
-        ],
-        sidebar: [{
+          sidebar: [{
                 title: 'Основные правила',
                 children: [
                     '/core/',
                 ]
             },
             {
-                title: 'Жанровые правила: Классическое фэнтези',
+                title: 'Классическое фэнтези: Правила жанра',
                 children: [
                     '/genre-classic-fantasy/'
                 ]
@@ -69,7 +38,7 @@ module.exports = {
             }
             ,
             {
-                title: 'Жанровые правила: Дополненное фэнтези',
+                title: 'Дополненное фэнтези: Правила жанра',
                 children: [
                     '/genre-advanced-fantasy/'
                 ]
