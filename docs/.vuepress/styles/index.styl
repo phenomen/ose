@@ -1,57 +1,56 @@
-/* General */
+/* Variables */
+$brand-color = #D9EBD3
+$font-main-color = #2C3E50
+$warning-color = #ECE0CC
+$table-header-font-color = #FFFFFF
+$table-header-background-color = #000000
 
+/* Font */
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
-body {
-     font-family: 'Merriweather', serif;
-}
+body
+  font-family Merriweather, serif
 
 /* Headers */
-
-h3 {
-     margin-top: 0rem !important;
-     padding: 0.4rem !important;
-     background-color: #D9EBD3 !important;
-}
+h3
+  margin-top 0rem !important
+  padding 0.4rem !important
+  background-color $brand-color !important
 
 /* Sidebar */
-
-a.sidebar-link {
-	outline: none;
-}
+a.sidebar-link.active
+  font-style italic
+  outline none
 
 /* Blocks */
+.tip
+  border-color $brand-color - 20% !important
+  background-color $brand-color !important
 
+.warning
+  color $warning-color - 80% !important
+  background-color $warning-color !important
+  border-color $warning-color - 20% !important
 
-.tip {
-     border-color: #C6D6C0 !important;
-     background-color: #D9EBD3 !important;
-}
-.warning {
-     color: #32160a !important;
-     background-color: #e8dac1 !important;
-     border-color: #d28f51 !important;
-}
-.warning .custom-block-title {
-     color: #32160a !important;
-}
+.warning .custom-block-title
+  color $warning-color - 80% !important
 
-/* Table */
+/* Tables */
+th
+  color $table-header-font-color
+  border-color $table-header-background-color !important
+  background-color $table-header-background-color !important
 
-th {
-     color: white;
-	 border-color: black !important;
-     background-color: black !important;
-}
-tr:nth-child(even) {
-     background-color: #D9EBD3 !important;
-}
-td {
-     border-color: #fff !important;
-}
+tr:nth-child(even)
+  background-color $brand-color !important
+
+td
+  border-color $table-header-font-color !important
 
 /* Homepage */
+#main-title
+  display none !important
 
-#main-title {
-     display: none !important;
-}
+.action-button
+  background-color $brand-color - 20% !important
+  border-color $brand-color - 20% !important
