@@ -4,7 +4,7 @@ navbar: false
 title: Главная
 heroImage: /logo.png
 actionText: К правилам →
-actionLink: /core/
+actionLink: /classic-fantasy/
 features:
 - title: Дух классики
   details: Опасные монстры и хитроумные ловушки, глубокие подземелья и зловещие планы, желанные сокровища и захватывающие приключения. Играйте так, как было задумано основателями ролевых игр.
