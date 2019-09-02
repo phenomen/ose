@@ -8,6 +8,7 @@ module.exports = {
                 children: [
                     '/classic-fantasy/',
                     '/classic-fantasy/player-characters',
+                    '/classic-fantasy/character-classes',
                 ]
             },
             {
