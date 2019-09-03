@@ -1,9 +1,12 @@
 module.exports = {
     docsDir: 'docs',
-    navbar: false,
     title: 'Old-School Essentials',
     description: 'Версия на русском языке',
     themeConfig: {
+        docsRepo: 'Phenomen/ose',
+        docsDir: 'docs',
+        editLinks: true,
+        editLinkText: 'Помогите улучшить эту страницу',
         sidebar: [{
                 title: 'Классическое фэнтези',
                 children: [
