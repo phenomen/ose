@@ -19,5 +19,9 @@ module.exports = {
                 ]
             }
         ]
+    },
+    markdown: {
+      anchor: { level: [1,2,3]
     }
+  }
 }
