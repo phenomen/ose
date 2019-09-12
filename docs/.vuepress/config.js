@@ -13,6 +13,7 @@ module.exports = {
                     '/classic-fantasy/',
                     '/classic-fantasy/player-characters',
                     '/classic-fantasy/character-classes',
+                    '/classic-fantasy/advancement',
                 ]
             },
             {
