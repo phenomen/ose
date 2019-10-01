@@ -14,6 +14,7 @@ module.exports = {
                     '/classic-fantasy/player-characters',
                     '/classic-fantasy/character-classes',
                     '/classic-fantasy/advancement',
+                    '/classic-fantasy/equipment',
                 ]
             },
             {
