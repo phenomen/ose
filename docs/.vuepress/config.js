@@ -15,6 +15,7 @@ module.exports = {
                     '/classic-fantasy/character-classes',
                     '/classic-fantasy/advancement',
                     '/classic-fantasy/equipment',
+                    '/classic-fantasy/vehicles-mounts',
                 ]
             },
             {
@@ -27,7 +28,7 @@ module.exports = {
     },
     markdown: {
         anchor: {
-            level: [1, 2, 3]
+            level: [1, 2, 3, 4]
         },
         slugify: function(string) {
             const rControl = /[\u0000-\u001f]/g
