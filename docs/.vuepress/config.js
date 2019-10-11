@@ -41,5 +41,15 @@ module.exports = {
                 .replace(/^\-+|\-+$/g, '')
                 .replace(/^(\d)/, '_$1')
         }
-    }
+    },
+	plugins: [
+    [
+      'vuepress-plugin-clean-urls',
+      {
+        normalSuffix: '/',
+        indexSuffix: '/',
+        notFoundPath: '/404.html',
+      },
+    ],
+  ]
 }
