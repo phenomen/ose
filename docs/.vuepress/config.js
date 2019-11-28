@@ -41,5 +41,21 @@ module.exports = {
                 .replace(/^\-+|\-+$/g, '')
                 .replace(/^(\d)/, '_$1')
         }
-    }
+    },
+    plugins: [
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'tip',
+        defaultTitle: '',
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'warning',
+        defaultTitle: '',
+      },
+    ],
+  ]
 }
