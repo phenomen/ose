@@ -16,12 +16,31 @@ module.exports = {
                     '/classic-fantasy/advancement',
                     '/classic-fantasy/equipment',
                     '/classic-fantasy/vehicles-mounts',
+                    '/classic-fantasy/magic',
                 ]
             },
             {
                 title: 'Дополненное фэнтези',
                 children: [
                     '/advanced-fantasy/'
+                ]
+            },
+            {
+                title: 'Мистические заклинания',
+                children: [
+                    '/arcane-spells/'
+                ]
+            },
+            {
+                title: 'Чудесные заклинания',
+                children: [
+                    '/divine-spells/'
+                ]
+            },
+            {
+                title: 'Монстры',
+                children: [
+                    '/monsters/'
                 ]
             }
         ]
