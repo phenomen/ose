@@ -32,7 +32,7 @@ module.exports = {
                 ]
             },
             {
-                title: 'Чудесные заклинания',
+                title: 'Божественные заклинания',
                 children: [
                     '/divine-spells/'
                 ]
