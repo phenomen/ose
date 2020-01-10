@@ -51,6 +51,12 @@ module.exports = {
                 children: [
                     '/magic-items/'
                 ]
+                ,
+                {
+                    title: 'Англо-русский словарь',
+                    children: [
+                        'dictionary'
+                    ]
             }
         ]
     },

@@ -29,4 +29,4 @@ footer: © 2019 Gavin Norman | Old-School Essentials is a trademark of Necrotic 
 
 От оригинального материала перевод отличается отсутствием иллюстраций, украшающих страницы книг.
 
-Замечания и предложения вы можете оставлять на **Discord** сервере [сообщества NoRP](https://discord.gg/8VRUfez).
+Замечания и предложения вы можете оставлять на **Discord** сервере OSR-сообщества [Восточные Земли](https://discord.gg/Zr8FP3F).
