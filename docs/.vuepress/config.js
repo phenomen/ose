@@ -17,6 +17,8 @@ module.exports = {
                     '/classic-fantasy/equipment',
                     '/classic-fantasy/vehicles-mounts',
                     '/classic-fantasy/magic',
+                    '/classic-fantasy/adventuring',
+                    '/classic-fantasy/combat',
                 ]
             },
             {
@@ -26,15 +28,15 @@ module.exports = {
                 ]
             },
             {
-                title: 'Мистические заклинания',
-                children: [
-                    '/arcane-spells/'
-                ]
-            },
-            {
                 title: 'Божественные заклинания',
                 children: [
                     '/divine-spells/'
+                ]
+            },
+            {
+                title: 'Мистические заклинания',
+                children: [
+                    '/arcane-spells/'
                 ]
             },
             {
