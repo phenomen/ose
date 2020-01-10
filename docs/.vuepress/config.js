@@ -19,6 +19,7 @@ module.exports = {
                     '/classic-fantasy/magic',
                     '/classic-fantasy/adventuring',
                     '/classic-fantasy/combat',
+                    '/classic-fantasy/hired-help'
                 ]
             },
             {
