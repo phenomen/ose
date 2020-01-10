@@ -53,9 +53,9 @@ module.exports = {
                 ]
                 ,
                 {
-                    title: 'Англо-русский словарь',
+                    title: 'Другое',
                     children: [
-                        'dictionary'
+                        '/other/'
                     ]
             }
         ]
