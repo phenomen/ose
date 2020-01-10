@@ -11,9 +11,9 @@ $table-header-background-color = #000000
 body
   font-family Merriweather, serif
 
-.theme-default-content
-  max-width 850px
-  padding 1rem
+.theme-default-content:not(.custom)
+  max-width 850px !important
+  padding 1rem !important
 
 /* Headers */
 h3
@@ -26,8 +26,11 @@ a.sidebar-link.active
   font-style italic
   outline none
 
-.arrow
-  border-left 2px
+.arrow.right
+  border-left 2px !important
+
+.arrow.down
+  border-left 2px !important
 
 /* Blocks */
 mark
