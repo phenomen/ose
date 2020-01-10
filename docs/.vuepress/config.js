@@ -51,12 +51,12 @@ module.exports = {
                 children: [
                     '/magic-items/'
                 ]
-                ,
-                {
-                    title: 'Другое',
-                    children: [
-                        '/other/'
-                    ]
+            },
+            {
+                title: 'Другое',
+                children: [
+                    '/other/'
+                ]
             }
         ]
     },
