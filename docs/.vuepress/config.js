@@ -42,6 +42,12 @@ module.exports = {
                 children: [
                     '/monsters/'
                 ]
+            },
+            {
+                title: 'Волшебные предметы',
+                children: [
+                    '/magic-items/'
+                ]
             }
         ]
     },
