@@ -77,6 +77,7 @@ module.exports = {
         }
     },
     plugins: [
+    ['@vuepress/nprogress'],
     [
       'vuepress-plugin-container',
       {
