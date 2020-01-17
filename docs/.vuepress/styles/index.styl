@@ -1,18 +1,19 @@
 /* Variables */
 $brand-color = #D9EBD3
-$font-main-color = #2C3E50
+$font-main-color = #222222
 $warning-color = #ECE0CC
 $table-header-font-color = #FFFFFF
 $table-header-background-color = #000000
 
 /* Font */
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 
 body
-  font-family Merriweather, serif
+  font-family 'PT Serif', serif
+  font-size 1.1rem
 
 .theme-default-content:not(.custom)
-  max-width 850px !important
+  max-width 860px !important
   padding 1rem !important
 
 /* Headers */
@@ -21,16 +22,19 @@ h3
   padding 0.4rem !important
   background-color $brand-color !important
 
+h4
+  font-size 1.3rem
+
 /* Sidebar */
 a.sidebar-link.active
   font-style italic
   outline none
 
 .arrow.right
-  border-left 2px !important
+  display none
 
 .arrow.down
-  border-left 2px !important
+  display none
 
 /* Blocks */
 mark
@@ -42,7 +46,7 @@ mark
   padding-bottom 20px
 
 .micro
-  font-size 0.8rem
+  font-size 1rem
 
 hr
   border-color $font-main-color !important
