@@ -77,7 +77,7 @@ module.exports = {
         }
     },
     plugins: [
-    ['@vuepress/nprogress'],
+    ['@vuepress/back-to-top'],
     [
       'vuepress-plugin-container',
       {
