@@ -32,7 +32,7 @@ Magic                           | Магия
 Mercenary                       | Наёмник
 Modifier                        | Модификатор
 Monster                         | Монстр
-Movement Rate                   | Скорость движения
+Movement Rate (MR)              | Скорость движения (СД)
 Non-Player Character (NPC)      | Персонаж рефери
 Party                           | Партия
 Player                          | Игрок
