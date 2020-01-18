@@ -29,15 +29,12 @@ module.exports = {
                 ]
             },
             {
-                title: 'Божественные заклинания',
+                title: 'Заклинания',
                 children: [
-                    '/divine-spells/'
-                ]
-            },
-            {
-                title: 'Мистические заклинания',
-                children: [
-                    '/arcane-spells/'
+                    '/spells/arcane',
+                    '/spells/divine',
+                    '/spells/druid',
+                    '/spells/illusion',
                 ]
             },
             {
@@ -77,20 +74,20 @@ module.exports = {
         }
     },
     plugins: [
-    ['@vuepress/back-to-top'],
-    [
-      'vuepress-plugin-container',
-      {
-        type: 'tip',
-        defaultTitle: '',
-      },
-    ],
-    [
-      'vuepress-plugin-container',
-      {
-        type: 'warning',
-        defaultTitle: '',
-      },
-    ],
-  ]
+        ['@vuepress/back-to-top'],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'tip',
+                defaultTitle: '',
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'warning',
+                defaultTitle: '',
+            },
+        ],
+    ]
 }
