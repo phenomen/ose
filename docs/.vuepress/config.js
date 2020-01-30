@@ -67,7 +67,7 @@ module.exports = {
     },
     markdown: {
         anchor: {
-            level: [1, 2, 3, 4]
+            level: [1, 2, 3]
         },
         slugify: function(string) {
             const rControl = /[\u0000-\u001f]/g
