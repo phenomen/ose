@@ -24,8 +24,8 @@
 
 ##### Файлы
 
-- [Приключение](https://mega.nz/#!kqIRwSjB!JpLyTeNn-ojPY3r99VKoAndKJENvc5BxqbpAeccuH9o) (v 1.1)
-- [Карты для рефери](https://mega.nz/#!cn4B1KjI!XykFL10ulq1eTe6O4TOsYzecrIa9Y9milV3WDKMu5XI)
+- [Приключение](https://mega.nz/#!p6wwXQIR!f5cVvNf5jiVOLG6RbxZxSSUQGdNMoIOG6XRi9d07hA8) (v 1.2 от 29/1/20)
+- [Карты для рефери](https://mega.nz/#!Z6xGDC7D!re9bAJzHPI31mv4kuzpmC7tyLxOLmQF7CwhZlH5VgDQ)
 - [Карты без меток](https://mega.nz/#!orwnwQiB!QSVmgE-YwXNjxNGYg_JESasKoqp1VBvTN_OetlJt8GA)
 
 
