@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "dev": "vuepress dev docs",
+        "build": "vuepress build docs && mv docs/.vuepress/dist public"
+    },
+    "devDependencies": {
+        "vuepress": "^1.2.0",
+        "@vuepress/plugin-back-to-top": "^1.2.0",
+        "vuepress-plugin-reading-progress": "^1.0.8",
+        "@vuepress/plugin-google-analytics": "^1.2.0"
+    }
+}

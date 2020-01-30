@@ -1,0 +1,97 @@
+/* Variables */
+$brand-color = #D9EBD3
+$font-main-color = #222222
+$warning-color = #ECE0CC
+$table-header-font-color = #FFFFFF
+$table-header-background-color = #000000
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+body
+  font-family 'PT Serif', serif
+  font-size 1.1rem
+
+.theme-default-content:not(.custom)
+  max-width 860px !important
+  padding 1rem !important
+
+/* Headers */
+h3
+  margin-top 2rem !important
+  padding 0.4rem !important
+  background-color $brand-color !important
+
+h4
+  font-size 1.3rem
+
+h5
+  font-size 1.3rem
+
+.theme-default-content:not(.custom) ul
+  list-style-type '▸'
+
+/* Sidebar */
+
+a.sidebar-link.active
+  font-style italic
+  outline none
+
+.arrow.right
+  display none
+
+.arrow.down
+  display none
+
+/* Blocks */
+mark
+  background-color $table-header-background-color !important
+  color $table-header-font-color !important
+  padding-top 5px
+  padding-left 15px
+  padding-right 15px
+  padding-bottom 20px
+
+.micro
+  font-size 1rem
+
+hr
+  border-color $font-main-color !important
+
+/* Containers */
+
+.tip
+  border-color $brand-color - 20% !important
+  background-color $brand-color !important
+
+.warning
+  color $warning-color - 80% !important
+  background-color $warning-color !important
+  border-color $warning-color - 20% !important
+
+.warning .custom-block-title
+  color $warning-color - 80% !important
+
+.custom-block.warning a
+  color $warning-color - 50% !important
+
+/* Tables */
+th
+  color $table-header-font-color
+  border-color $table-header-background-color !important
+  background-color $table-header-background-color !important
+
+tr:nth-child(even)
+  background-color $brand-color !important
+
+td
+  border-color $table-header-font-color !important
+  padding .4em
+
+/* Homepage */
+#main-title
+  display none !important
+
+.action-button
+  background-color $brand-color - 20% !important
+  border-color $brand-color - 20% !important
