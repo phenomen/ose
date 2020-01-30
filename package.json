@@ -1,4 +1,6 @@
-{
+{   
+    "name": "ose-srd-ru",
+    "license": "ogl",
     "scripts": {
         "dev": "vuepress dev docs",
         "build": "vuepress build docs && mv docs/.vuepress/dist public"

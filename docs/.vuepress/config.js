@@ -58,7 +58,8 @@ module.exports = {
                 title: 'Дополнительные материалы',
                 children: [
                     '/other/adventures',
-                    '/other/lexicon'
+                    '/other/lexicon',
+                    '/other/ogl'
                 ]
             }
         ]
