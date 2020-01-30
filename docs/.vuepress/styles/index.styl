@@ -1,26 +1,30 @@
 /* Font */
+
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+/* Body */
 
 body
   font-family 'PT Serif', serif
-  font-size 1.1rem
+  font-size 1.1rem !important
 
 /* Headers */
+
 h1
-  font-size 4rem
+  font-size 4rem !important
   font-variant small-caps
 
 h2
-  font-size 2.5rem
+  font-size 2.5rem !important
   font-variant small-caps
 
 h3
-  margin-top 2rem !important
+  margin 0 auto !important
   padding 0.4rem !important
   background-color $brand-color !important
 
 h4, h5
-  font-size 1.3rem
+  font-size 1.3rem !important
 
 .theme-default-content:not(.custom) ul
   list-style-type '▸'
@@ -36,21 +40,6 @@ a.sidebar-link.active
 
 .arrow.down
   display none
-
-/* Blocks */
-mark
-  background-color $table-header-background-color !important
-  color $table-header-font-color !important
-  padding-top 5px
-  padding-left 17px
-  padding-right 17px
-  padding-bottom 22px
-
-.micro
-  font-size 1rem
-
-hr
-  border-color $textColor !important
 
 /* Containers */
 
@@ -70,8 +59,9 @@ hr
   color $warning-color - 50% !important
 
 /* Tables */
+
 th
-  color $table-header-font-color
+  color $table-header-font-color !important
   border-color $table-header-background-color !important
   background-color $table-header-background-color !important
 
@@ -80,12 +70,29 @@ tr:nth-child(even)
 
 td
   border-color $table-header-font-color !important
-  padding .4em
+  padding .4em  
 
 /* Homepage */
+
 #main-title
   display none !important
 
 .action-button
   background-color $brand-color - 20% !important
   border-color $brand-color - 20% !important
+
+/* Other */
+
+mark
+  background-color $table-header-background-color !important
+  color $table-header-font-color !important
+  padding-top 5px !important
+  padding-left 17px !important
+  padding-right 17px !important
+  padding-bottom 22px !important
+
+.micro
+  font-size 1rem !important
+
+hr
+  border-color $textColor !important
