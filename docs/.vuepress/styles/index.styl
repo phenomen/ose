@@ -1,10 +1,3 @@
-/* Variables */
-$brand-color = #D9EBD3
-$font-main-color = #222222
-$warning-color = #ECE0CC
-$table-header-font-color = #FFFFFF
-$table-header-background-color = #000000
-
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 
@@ -12,20 +5,13 @@ body
   font-family 'PT Serif', serif
   font-size 1.1rem
 
-.theme-default-content:not(.custom)
-  max-width 860px !important
-  padding 1rem !important
-
 /* Headers */
 h3
   margin-top 2rem !important
   padding 0.4rem !important
   background-color $brand-color !important
 
-h4
-  font-size 1.3rem
-
-h5
+h4, h5
   font-size 1.3rem
 
 .theme-default-content:not(.custom) ul
@@ -48,15 +34,15 @@ mark
   background-color $table-header-background-color !important
   color $table-header-font-color !important
   padding-top 5px
-  padding-left 15px
-  padding-right 15px
-  padding-bottom 20px
+  padding-left 17px
+  padding-right 17px
+  padding-bottom 22px
 
 .micro
   font-size 1rem
 
 hr
-  border-color $font-main-color !important
+  border-color $textColor !important
 
 /* Containers */
 
@@ -95,3 +81,4 @@ td
 .action-button
   background-color $brand-color - 20% !important
   border-color $brand-color - 20% !important
+  width 30%
