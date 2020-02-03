@@ -27,7 +27,7 @@
 | Dice                            | Кость                                |
 | Divine                          | Божественный                         |
 | Dungeon                         | Подземелье                           |
-| Encounter                       | Встреча                              |
+| Encounter                       | Столкновение                         |
 | Experience Points (XP)          | Пункты опыта (ПО)                    |
 | Hireling                        | Прислужник                           |
 | Hit Dice (HD)                   | Кость здоровья (КЗ)                  |
