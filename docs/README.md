@@ -4,7 +4,7 @@ navbar: false
 title: Главная
 heroImage: /logo.png
 actionText: К правилам →
-actionLink: /classic-fantasy/
+actionLink: /characters/
 features:
 - title: Дух классики
   details: Опасные монстры и хитроумные ловушки, глубокие подземелья и зловещие планы, желанные сокровища и захватывающие приключения. Играйте так, как было задумано основателями ролевых игр.
@@ -17,16 +17,16 @@ footer: © 2019 Gavin Norman | Old-School Essentials is a trademark of Necrotic 
 
 ## Об Old-School Essentials
 
-***Old-School Essentials (OSE)*** — это настольная ролевая игра об исследовании опасных подземелий, ловушках и загадках, монстрах и магии. Игра специально имеет простые правила, которые позволяют сфокусироваться на воображении, импровизации и получении удовольствия от приключений. Книга правил оформлена с большим вниманием к деталям и удобству чтения. Кроме того, ***Old-School Essentials*** на 100% совместим с классическими правилами ***Basic/Expert (B/X)***, а значит вам сразу доступны тысячи материалов, созданные за десятки лет!
+**_Old-School Essentials (OSE)_** — это настольная ролевая игра об исследовании опасных подземелий, ловушках и загадках, монстрах и магии. Игра специально имеет простые правила, которые позволяют сфокусироваться на воображении, импровизации и получении удовольствия от приключений. Книга правил оформлена с большим вниманием к деталям и удобству чтения. Кроме того, ***Old-School Essentials*** на 100% совместим с классическими правилами **_Basic/Expert (B/X)_**, а значит вам сразу доступны тысячи материалов, созданные за десятки лет!
 
 ## Оригинальная версия 
 
-Купить электронный или печатный вариант ***Old-School Essentials*** можно на сайте [Necrotic Gnome](https://necroticgnome.com/collections/old-school-essentials) или [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/5606/Necrotic-Gnome/subcategory/26251_32434/OldSchool-Essentials).
+Купить электронный или печатный вариант **_Old-School Essentials_** можно на сайте [Necrotic Gnome](https://necroticgnome.com/collections/old-school-essentials) или [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/5606/Necrotic-Gnome/subcategory/26251_32434/OldSchool-Essentials).
 
 ## Перевод на русский язык
 
 Перевод SRD (System Reference Document) распространяется по лицензии [Open Game License](other/ogl). От оригинальной книги SRD отличается отсутствием иллюстраций.
 
-Перевод выполнил **Александр «‎Phenomen» Василенко** с разрешения **Гевина Нормана**, автора ***Old-School Essentials***. 
+Перевод выполнил **Александр «‎Phenomen» Василенко** с разрешения **Гевина Нормана**, автора **_Old-School Essentials_**. 
 
 Замечания и предложения вы можете оставлять на **Discord** сервере OSR-сообщества [Восточные Земли](https://discord.gg/Zr8FP3F).

@@ -5,54 +5,99 @@ module.exports = {
     themeConfig: {
         docsRepo: 'Phenomen/ose',
         docsDir: 'docs',
-        activeHeaderLinks: false,
         smoothScroll: true,
         editLinks: true,
+        activeHeaderLinks: false,
         editLinkText: 'Помогите улучшить эту страницу',
         sidebar: [{
-                title: 'Классическое фэнтези',
+                title: 'Персонажи',
                 children: [
-                    '/classic-fantasy/',
-                    '/classic-fantasy/player-characters',
-                    '/classic-fantasy/character-classes',
-                    '/classic-fantasy/advancement',
-                    '/classic-fantasy/equipment',
-                    '/classic-fantasy/vehicles-mounts',
-                    '/classic-fantasy/magic',
-                    '/classic-fantasy/adventuring',
-                    '/classic-fantasy/areas',
-                    '/classic-fantasy/encounters',
-                    '/classic-fantasy/combat',
-                    '/classic-fantasy/hired-help',
-                    '/classic-fantasy/strongholds',
-                    '/classic-fantasy/monsters',
-                    '/classic-fantasy/running-adventures',
-                    '/classic-fantasy/treasures',
-                    '/classic-fantasy/magic-items'
+                    '/characters/',
+                    '/characters/game-statistics',
+                    '/characters/creating-character',
+                    '/characters/ability-scores',
+                    '/characters/alignment',
+                    '/characters/languages',
+                    '/characters/advancement',
+                    '/characters/wealth',
+
                 ]
             },
             {
-                title: 'Дополненное фэнтези',
+                title: 'Классы',
                 children: [
-                    '/advanced-fantasy/'
+                    '/classes/fighter',
+                    '/classes/dwarf',
+                    '/classes/cleric',
+                    '/classes/magic-user',
+                    '/classes/thief',
+                    '/classes/halfling',
+                    '/classes/elf',
+
+                ]
+            },
+            {
+                title: 'Снаряжение и услуги',
+                children: [
+                    '/equipment-services/adventuring-gear',
+                    '/equipment-services/weapons-armor',
+                    '/equipment-services/vehicles-rules',
+                    '/equipment-services/vehicles-mounts',
+                    '/equipment-services/vehicles-land',
+                    '/equipment-services/vehicles-water',
+                    '/equipment-services/retainers',
+                    '/equipment-services/mercenaries',
+                    '/equipment-services/specialists',
+                    '/equipment-services/strongholds',
+                ]
+            },
+            {
+                title: 'Приключения',
+                children: [
+                    '/adventuring/party',
+                    '/adventuring/time-weight-movement',
+                    '/adventuring/checks-damage-saves',
+                    '/adventuring/hazards-challenges',
+                    '/adventuring/adventuring-dungeons',
+                    '/adventuring/adventuring-wilderness',
+                    '/adventuring/adventuring-waterborne',
+                    '/adventuring/encounters',
+                    '/adventuring/evasion-pursuit',
+                    '/adventuring/combat',
+                    '/adventuring/morale',
                 ]
             },
             {
                 title: 'Заклинания',
                 children: [
-                    '/spells/arcane',
-                    '/spells/divine',
-                    '/spells/druid',
-                    '/spells/illusion'
+                    '/magic/',
+                    '/magic/arcane',
+                    '/magic/divine',
+                    '/magic/druid',
+                    '/magic/illusion'
                 ]
             },
             {
-                title: 'Бестиарий',
+                title: 'Монстры',
                 children: [
-                    '/bestiary/',
-                    '/bestiary/monsters-0',
-                    '/bestiary/monsters-1',
-                    '/bestiary/monsters-2'
+                    '/monsters/',
+                    '/monsters/monsters-0',
+                    '/monsters/monsters-1',
+                    '/monsters/monsters-2'
+                ]
+            },
+            {
+                title: 'Проведение игры',
+                children: [
+                    '/referee/referee-basics',
+                ]
+            },
+            {
+                title: 'Сокровища',
+                children: [
+                    '/treasures/placing-treasures',
+                    '/treasures/treasure-types',
+                    '/treasures/magic-items',
                 ]
             },
             {
