@@ -70,7 +70,7 @@ module.exports = {
             {
                 title: 'Заклинания',
                 children: [
-                    '/magic/',
+                    '/magic/magic',
                     '/magic/arcane',
                     '/magic/divine',
                     '/magic/druid',
@@ -80,7 +80,7 @@ module.exports = {
             {
                 title: 'Монстры',
                 children: [
-                    '/monsters/',
+                    '/monsters/monsters',
                     '/monsters/monsters-0',
                     '/monsters/monsters-1',
                     '/monsters/monsters-2'
