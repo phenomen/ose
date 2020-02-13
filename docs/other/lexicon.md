@@ -32,6 +32,7 @@
 | Hireling                        | Прислужник                           |
 | Hit Dice (HD)                   | Кость здоровья (КЗ)                  |
 | Hit Points (hp)                 | Пункты здоровья (ПЗ)                 |
+| Infravision                     | Инфразрение                          |
 | Intelligence (INT)              | Интеллект (ИНТ)                      |
 | Level                           | Уровень                              |
 | Magic                           | Магия                                |
@@ -53,6 +54,7 @@
 | Specialist                      | Специалист                           |
 | Spell                           | Заклинание                           |
 | Strength (STR)                  | Сила (СИЛ)                           |
+| Surprise                        | Эффект неожиданности                 |
 | Treasure                        | Сокровище                            |
 | Turning                         | Изгнание                             |
 | Wandering monster               | Бродячий монстр                      |
