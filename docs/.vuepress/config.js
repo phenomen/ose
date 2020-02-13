@@ -6,8 +6,8 @@ module.exports = {
         docsRepo: 'Phenomen/ose',
         docsDir: 'docs',
         smoothScroll: true,
-        editLinks: true,
-        activeHeaderLinks: false,
+        editLinks: false,
+        activeHeaderLinks: true,
         editLinkText: 'Помогите улучшить эту страницу',
         sidebar: [{
                 title: 'Персонажи',
