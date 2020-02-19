@@ -28,6 +28,7 @@
 | Divine                          | Божественный                         |
 | Dungeon                         | Подземелье                           |
 | Encounter                       | Столкновение                         |
+| Evasion                         | Побег                                |
 | Experience Points (XP)          | Пункты опыта (ПО)                    |
 | Hireling                        | Прислужник                           |
 | Hit Dice (HD)                   | Кость здоровья (КЗ)                  |
@@ -46,6 +47,7 @@
 | Party                           | Партия                               |
 | Player                          | Игрок                                |
 | Prime Requisite                 | Основная характеристика              |
+| Pursuit                         | Погоня                               |
 | Race                            | Раса                                 |
 | Referee                         | Рефери                               |
 | Retainer                        | Спутник                              |
