@@ -130,6 +130,7 @@ module.exports = {
             {
                 title: 'Дополнительные материалы',
                 children: [
+                    '/other/character-sheet',
                     '/other/adventures',
                     '/other/lexicon',
                     '/other/ogl'
@@ -169,7 +170,7 @@ module.exports = {
                 type: 'warning',
                 defaultTitle: ''
             }
-        ],    
+        ],
         [
             '@vuepress/google-analytics',
             {
