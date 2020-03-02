@@ -178,7 +178,7 @@ module.exports = {
             }
         ],
         [
-            '@vuepress/google-analytics',
+            'minimal-analytics',
             {
                 'ga': 'UA-99747206-6'
             }

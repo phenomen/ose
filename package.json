@@ -6,9 +6,9 @@
         "build": "vuepress build docs && mv docs/.vuepress/dist public"
     },
     "devDependencies": {
-        "@vuepress/plugin-back-to-top": "^1.3.0",
-        "@vuepress/plugin-google-analytics": "^1.3.0",
-        "vuepress": "^1.3.0",
+        "@vuepress/plugin-back-to-top": "^1.3.1",
+        "vuepress-plugin-minimal-analytics": "^0.1.4",
+        "vuepress": "^1.3.1",
         "vuepress-plugin-reading-progress": "^1.0.8"
     }
 }
