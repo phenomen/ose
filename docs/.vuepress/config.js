@@ -33,7 +33,6 @@ module.exports = {
                     '/classes/thief',
                     '/classes/halfling',
                     '/classes/elf',
-
                 ]
             },
             {
@@ -168,6 +167,13 @@ module.exports = {
             'vuepress-plugin-container',
             {
                 type: 'warning',
+                defaultTitle: ''
+            }
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'danger',
                 defaultTitle: ''
             }
         ],
