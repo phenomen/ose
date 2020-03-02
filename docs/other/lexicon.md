@@ -33,7 +33,7 @@
 | Hireling                        | Прислужник                           |
 | Hit Dice (HD)                   | Кость здоровья (КЗ)                  |
 | Hit Points (hp)                 | Пункты здоровья (ПЗ)                 |
-| Infravision                     | Инфразрение                          |
+| Infravision                     | Тепловое зрение                      |
 | Intelligence (INT)              | Интеллект (ИНТ)                      |
 | Level                           | Уровень                              |
 | Magic                           | Магия                                |
