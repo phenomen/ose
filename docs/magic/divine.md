@@ -31,7 +31,6 @@
 - Рост животного / Growth of Animal
 - Снятие проклятия (Наложение проклятия) / Remove Curse (Curse)
 
-
 ### 4-ый уровень
 
 - Исцеление серьёзных ран (Нанесение серьёзных ран) / Cure Serious Wounds (Cause Sr. Wounds)
@@ -39,11 +38,11 @@
 - Область защиты от зла / Protection from Evil 10’ Radius
 - Общение с растениями / Speak with Plants
 - Сотворение воды / Create Water
-- Хворостяные змеи / Sticks to Snakes
+- Хворост в змей / Sticks to Snakes
 
 ### 5-ый уровень
 
-- Внушение (Отворот) / Quest (Remove Quest)
+- Внушение (Снятие внушения) / Quest (Remove Quest)
 - Воскрешение мёртвого (Приказ умереть) / Raise Dead (Finger of Death)
 - Оберег от зла / Dispel Evil
 - Полчище насекомых / Insect Plague

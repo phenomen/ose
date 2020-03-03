@@ -5,9 +5,9 @@
 - Волшебная стрела / Magic Missile
 - Защита от зла / Protection from Evil
 - Обнаружение магии / Detect Magic
+- Очарование / Charm Person
 - Парящий диск / Floating Disc
 - Понимание языков / Read Languages
-- Приворот личности / Charm Person
 - Свет (Тьма) / Light (Darkness)
 - Сон / Sleep
 - Удержание прохода / Hold Portal
