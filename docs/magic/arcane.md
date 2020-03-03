@@ -54,9 +54,9 @@
 - Маскировка / Massmorph
 - Мираж / Hallucinatory Terrain
 - Огненная стена / Wall of Fire
+- Очарование монстра / Charm Monster
 - Перевоплощение других / Polymorph Others
 - Перевоплощение себя / Polymorph Self
-- Приворот монстра / Charm Monster
 - Разрастание растений / Growth of Plants
 - Снятие проклятия (Наложение проклятия) / Remove Curse (Curse)
 
