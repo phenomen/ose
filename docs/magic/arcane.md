@@ -2,18 +2,18 @@
 
 ### 1-ый уровень
 
-- Волшебная стрела / Magic Missile
-- Защита от зла / Protection from Evil
-- Обнаружение магии / Detect Magic
-- Очарование / Charm Person
-- Парящий диск / Floating Disc
-- Понимание языков / Read Languages
-- Свет (Тьма) / Light (Darkness)
-- Сон / Sleep
-- Удержание прохода / Hold Portal
-- Чревовещание / Ventriloquism
-- Чтение магии / Read Magic
-- Щит / Shield
+- [Волшебная стрела](arcane-spells/magic-missile.md) / Magic Missile
+- [Защита от зла](arcane-spells/protection-from-evil.md) / Protection from Evil
+- [Обнаружение магии](arcane-spells/detect-magic.md) / Detect Magic
+- [Очарование личности](arcane-spells/charm-person.md) / Charm Person
+- [Парящий диск](arcane-spells/floating-disk.md) / Floating Disc
+- [Свет](arcane-spells/light.md) (Тьма) / Light (Darkness)
+- [Сон](arcane-spells/sleep.md) / Sleep
+- [Удержание прохода](arcane-spells/hold-portal.md) / Hold Portal
+- [Чревовещание](arcane-spells/ventriloquism.md) / Ventriloquism
+- [Чтение магии](arcane-spells/read-magic.md) / Read Magic
+- [Чтение языков](arcane-spells/read-languages.md) / Read Languages
+- [Щит](arcane-spells/shield.md) / Shield
 
 ### 2-ой уровень
 
