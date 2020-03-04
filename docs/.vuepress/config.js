@@ -67,9 +67,10 @@ module.exports = {
                 ]
             },
             {
-                title: 'Заклинания',
+                title: 'Магия',
                 children: [
                     '/magic/magic',
+                    '/magic/magical-research',
                     '/magic/arcane',
                     '/magic/divine',
                     '/magic/druid',
