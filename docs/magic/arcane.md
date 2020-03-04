@@ -7,7 +7,7 @@
 - [Обнаружение магии](arcane-spells/detect-magic.md) / Detect Magic
 - [Очарование личности](arcane-spells/charm-person.md) / Charm Person
 - [Парящий диск](arcane-spells/floating-disk.md) / Floating Disc
-- [Свет](arcane-spells/light.md) (Тьма) / Light (Darkness)
+- [Свет (Тьма)](arcane-spells/light.md) / Light (Darkness)
 - [Сон](arcane-spells/sleep.md) / Sleep
 - [Удержание прохода](arcane-spells/hold-portal.md) / Hold Portal
 - [Чревовещание](arcane-spells/ventriloquism.md) / Ventriloquism
