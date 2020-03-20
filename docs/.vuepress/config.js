@@ -72,9 +72,7 @@ module.exports = {
                     '/magic/magic',
                     '/magic/magical-research',
                     '/magic/arcane',
-                    '/magic/divine',
-                    '/magic/druid',
-                    '/magic/illusion'
+                    '/magic/divine'
                 ]
             },
             {
@@ -82,35 +80,9 @@ module.exports = {
                 children: [
                     '/monsters/monsters',
                     '/monsters/monsters-list',
-                    '/monsters/a',
-                    '/monsters/b',
-                    '/monsters/v',
-                    '/monsters/g',
-                    '/monsters/d',
-                    '/monsters/e',
-                    '/monsters/zh',
-                    '/monsters/z',
-                    '/monsters/i',
-                    '/monsters/j',
-                    '/monsters/k',
-                    '/monsters/l',
-                    '/monsters/m',
-                    '/monsters/n',
-                    '/monsters/o',
-                    '/monsters/p',
-                    '/monsters/r',
-                    '/monsters/s',
-                    '/monsters/t',
-                    '/monsters/u',
-                    '/monsters/f',
-                    '/monsters/h',
-                    '/monsters/c',
-                    '/monsters/ch',
-                    '/monsters/sh',
-                    '/monsters/y',
-                    '/monsters/eh',
-                    '/monsters/yu',
-                    '/monsters/ya'
+                    '/monsters/0',
+                    '/monsters/1',
+                    '/monsters/2'
                 ]
             },
             {

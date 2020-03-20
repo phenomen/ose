@@ -17,17 +17,17 @@
 
 ### 2-ой уровень
 
-- Видение невидимого / Detect Invisible
-- Внечувственное восприятие / ESP
+- [Видение невидимого](arcane-spells/detect-invisible.md) / Detect Invisible
+- [Внечувственное восприятие](arcane-spells/esp.md) / ESP
 - Волшебный замок / Wizard Lock
 - Зеркальное отражение / Mirror Image
-- Левитация / Levitate
+- [Левитация](arcane-spells/levitate.md) / Levitate
 - Нахождение объекта / Locate Object
-- Невидимость / Invisibility
-- Обнаружение зла / Detect Evil
-- Открытие / Knock
+- [Невидимость](arcane-spells/invisibility.md) / Invisibility
+- [Обнаружение зла](arcane-spells/detect-evil.md) / Detect Evil
+- [Открытие](arcane-spells/knock.md) / Knock
 - Паутина / Web
-- Постоянный свет (Постоянная тьма) / Continual Light (Continual Darkness)
+- [Постоянный свет (Постоянная тьма)](arcane-spells/continual-light.md) / Continual Light (Continual Darkness)
 - Призрачная сила / Phantasmal Force
 
 ### 3-ий уровень
