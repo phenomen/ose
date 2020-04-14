@@ -19,16 +19,16 @@
 
 - [Видение невидимого](arcane-spells/detect-invisible.md) / Detect Invisible
 - [Внечувственное восприятие](arcane-spells/esp.md) / ESP
-- Волшебный замок / Wizard Lock
-- Зеркальное отражение / Mirror Image
+- [Волшебный замок](arcane-spells/wizard-lock.md) / Wizard Lock
+- [Зеркальное отражение](arcane-spells/mirror-image.md) / Mirror Image
 - [Левитация](arcane-spells/levitate.md) / Levitate
-- Нахождение объекта / Locate Object
+- [Нахождение объекта](arcane-spells/locate-object.md) / Locate Object
 - [Невидимость](arcane-spells/invisibility.md) / Invisibility
 - [Обнаружение зла](arcane-spells/detect-evil.md) / Detect Evil
 - [Открытие](arcane-spells/knock.md) / Knock
-- Паутина / Web
+- [Паутина](arcane-spells/web.md) / Web
 - [Постоянный свет (Постоянная тьма)](arcane-spells/continual-light.md) / Continual Light (Continual Darkness)
-- Призрачная сила / Phantasmal Force
+- [Призрачная сила](arcane-spells/phantasmal-force.md) / Phantasmal Force
 
 ### 3-ий уровень
 
