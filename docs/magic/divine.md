@@ -1,6 +1,6 @@
 # Божественные заклинания
 
-### 1-ый уровень
+### 1-ый круг
 
 - [Защита от зла](divine-spells/protection-from-evil.md) / Protection from Evil
 - [Исцеление лёгких ран (Нанесение лёгких ран)](divine-spells/cure-light-wounds.md) / Cure Light Wounds (Cause Lt. Wounds)
@@ -11,7 +11,7 @@
 - [Снятие страха (Вызов страха)](divine-spells/remove-fear.md) / Remove Fear (Cause Fear)
 - [Сопротивление холоду](divine-spells/resist-cold.md) / Resist Cold
 
-### 2-ой уровень
+### 2-ой круг
 
 - Благословение (Порча) / Bless (Blight)
 - Нахождение ловушек / Find Traps
@@ -22,7 +22,7 @@
 - Сопротивление огню / Resist Fire
 - Удержание личности / Hold Person
 
-### 3-ий уровень
+### 3-ий круг
 
 - Зачарование оружия / Striking
 - Излечение болезни (Заражение болезнью) / Cure Disease (Cause Disease)
@@ -31,7 +31,7 @@
 - Рост животного / Growth of Animal
 - Снятие проклятия (Наложение проклятия) / Remove Curse (Curse)
 
-### 4-ый уровень
+### 4-ый круг
 
 - Исцеление серьёзных ран (Нанесение серьёзных ран) / Cure Serious Wounds (Cause Sr. Wounds)
 - Нейтрализация яда / Neutralize Poison
@@ -40,7 +40,7 @@
 - Сотворение воды / Create Water
 - Хворост в змей / Sticks to Snakes
 
-### 5-ый уровень
+### 5-ый круг
 
 - Внушение (Снятие внушения) / Quest (Remove Quest)
 - Воскрешение мёртвого (Приказ умереть) / Raise Dead (Finger of Death)

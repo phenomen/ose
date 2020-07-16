@@ -20,7 +20,7 @@
 | Check                           | Проверка                             |
 | Class                           | Класс                                |
 | Class Ability                   | Классовая способность                |
-| Combat                          | Сражение                             |
+| Combat                          | Бой                                  |
 | Constitution (CON)              | Выносливость (ВЫН)                   |
 | Damage                          | Урон                                 |
 | Dexterity (DEX)                 | Ловкость (ЛВК)                       |

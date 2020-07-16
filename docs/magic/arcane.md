@@ -1,6 +1,6 @@
 # Мистические заклинания
 
-### 1-ый уровень
+### 1-ый круг
 
 - [Волшебная стрела](arcane-spells/magic-missile.md) / Magic Missile
 - [Защита от зла](arcane-spells/protection-from-evil.md) / Protection from Evil
@@ -15,7 +15,7 @@
 - [Чтение языков](arcane-spells/read-languages.md) / Read Languages
 - [Щит](arcane-spells/shield.md) / Shield
 
-### 2-ой уровень
+### 2-ой круг
 
 - [Видение невидимого](arcane-spells/detect-invisible.md) / Detect Invisible
 - [Внечувственное восприятие](arcane-spells/esp.md) / ESP
@@ -30,7 +30,7 @@
 - [Постоянный свет (Постоянная тьма)](arcane-spells/continual-light.md) / Continual Light (Continual Darkness)
 - [Призрачная сила](arcane-spells/phantasmal-force.md) / Phantasmal Force
 
-### 3-ий уровень
+### 3-ий круг
 
 - Барьер / Protection from Normal Missiles
 - Область защиты от зла / Protection from Evil 10’ Radius
@@ -45,7 +45,7 @@
 - Удержание личности / Hold Person
 - Ясновидение / Clairvoyance
   
-### 4-ый уровень
+### 4-ый круг
 
 - Волшебный глаз / Wizard Eye
 - Дверь измерений / Dimension Door
@@ -60,7 +60,7 @@
 - Разрастание растений / Growth of Plants
 - Снятие проклятия (Наложение проклятия) / Remove Curse (Curse)
 
-### 5-ый уровень
+### 5-ый круг
 
 - Каменная стена / Wall of Stone
 - Камень в грязь (Грязь в камень) / Transmute Rock to Mud (Mud to Rock)
@@ -75,7 +75,7 @@
 - Телепортация / Teleport
 - Удержание монстра / Hold Monster
 
-### 6-ой уровень
+### 6-ой круг
 
 - Антимагический барьер / Anti-Magic Shell
 - Движение земли / Move Earth
