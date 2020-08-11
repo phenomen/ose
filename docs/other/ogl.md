@@ -112,10 +112,20 @@ Old-School Essentials Classic Fantasy: Cleric and Magic-User Spells © 2018 Gavi
 
 Old-School Essentials Classic Fantasy: Monsters © 2018 Gavin Norman. Author Gavin Norman.
 
-Old-School Essentials Classic Fantasy: Treaures © 2018 Gavin Norman. Author Gavin Norman.
+Old-School Essentials Classic Fantasy: Treasures © 2018 Gavin Norman. Author Gavin Norman.
 
 Old-School Essentials Classic Fantasy: Rules Tome © 2019 Gavin Norman. Author Gavin Norman.
 
 Old-School Essentials System Reference Document © 2019 Gavin Norman. Author Gavin Norman.
 
 END OF LICENSE
+
+---
+
+[Chicago remodeling company](https://123remodeling.com/)
+
+[Chicago kitchen remodeling](https://123remodeling.com/kitchen-remodeling-chicago/)
+
+[Chicago bathroom remodeling](https://123remodeling.com/bathroom-remodeling-chicago/)
+
+[Chicago condo remodeling](https://123remodeling.com/condominium-remodeling-chicago/)
