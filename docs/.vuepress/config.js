@@ -113,17 +113,6 @@ module.exports = {
     markdown: {
         anchor: {
             level: [1, 2, 3, 4]
-        },
-        slugify: function(string) {
-            const rControl = /[\u0000-\u001f]/g
-            const rSpecial = /[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'<>,.?/]+/g
-
-            return string.toString().toLowerCase()
-                .replace(rControl, '')
-                .replace(rSpecial, '-')
-                .replace(/\-{2,}/g, '-')
-                .replace(/^\-+|\-+$/g, '')
-                .replace(/^(\d)/, '_$1')
         }
     },
     plugins: [
