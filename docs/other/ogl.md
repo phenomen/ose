@@ -122,10 +122,12 @@ END OF LICENSE
 
 ---
 
-[Chicago remodeling company](https://123remodeling.com/)
+Chicago, IL - 123 Remodeling renovates houses and makes them look as good as new. High-end [condominium remodeling](https://123remodeling.com/condominium-remodeling-chicago/) is one of the services provided by 123 Remodeling that completely transforms the interior of condominiums. The process is extensive and includes permission procurement, architectural drafting, and material selection so that the customers are delighted with the professional work done.
 
-[Chicago kitchen remodeling](https://123remodeling.com/kitchen-remodeling-chicago/)
+Condo remodeling in Chicago includes a lot of rules and regulations. That’s what sets 123 Remodeling apart from the competitors. The condos can be remodeled to look and feel modern and new, using high-end equipment and expertise of the workers. The process is simple: request a free consultation, and your project manager will deal with everything else based on your needs, budget, and schedule.
 
-[Chicago bathroom remodeling](https://123remodeling.com/bathroom-remodeling-chicago/)
+123 Remodeling has been doing the professional Chicago renovation services for over 11 years, and so they know what it takes to renovate and redesign the home interior professionally and effectively. The company has a wide array of seasoned professionals, which include architects and designers who know the ins and outs of the work they do. They have mastered the craft, and know-how to handle any kind of renovation tasks in Chicago.
 
-[Chicago condo remodeling](https://123remodeling.com/condominium-remodeling-chicago/)
+[Bathrooms can be extended and remodeled](https://123remodeling.com/bathroom-remodeling-chicago/), and 123 Remodeling has complete expertise in doing so. Whether the bathrooms need to be updated or completely redesigned, the professional interior designers at 123 Remodeling have all the experience and advanced equipment to make the bathrooms look beautiful and functional. Everything in the bathroom can be changed from the wall tiles, flooring, and vanities to bathroom layout, electrical and bath to shower remodel.
+
+Kitchens are essential to a house, and 123 Remodeling can redesign a dull-looking outdated kitchen to a [modern or traditional kitchen](https://123remodeling.com/kitchen-remodeling-chicago/) that looks beautiful and has functionality enough for seasoned cooks. That’s why Chicago homeowners choose 123 Remodeling to renovate their kitchen. Everything in the kitchen can be renovated: the cabinets, flooring, countertops, lightings, ceiling, and vanities can be updated so that the kitchen can look flawless. Whether the kitchen is small or large, many changes can be made so that the kitchen looks fantastic. Moreover, if the clients want some simple changes that can be done as well, by merely adding new countertops, replacing a sink or using illuminated backsplash can completely change the aesthetics of the kitchen.
