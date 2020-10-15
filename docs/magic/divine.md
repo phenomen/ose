@@ -13,14 +13,14 @@
 
 ### 2-ой круг
 
-- Благословение (Порча) / Bless (Blight)
-- Нахождение ловушек / Find Traps
-- Область тишины / Silence 15’ Radius
-- Общение с животными / Speak with Animals
-- Определение мировоззрения / Know Alignment
-- Подчинение змей / Snake Charm
-- Сопротивление огню / Resist Fire
-- Удержание личности / Hold Person
+- [Благословение (Порча)](divine-spells/bless.md) / Bless (Blight)
+- [Нахождение ловушек](divine-spells/find-traps.md) / Find Traps
+- [Область тишины](divine-spells/silence.md) / Silence 15’ Radius
+- [Общение с животными](divine-spells/speak-with-animals.md) / Speak with Animals
+- [Определение мировоззрения](divine-spells/know-alignment.md) / Know Alignment
+- [Подчинение змей](divine-spells/snake-charm.md) / Snake Charm
+- [Сопротивление огню](divine-spells/resist-fire.md) / Resist Fire
+- [Удержание личности](divine-spells/hold-person.md) / Hold Person
 
 ### 3-ий круг
 
@@ -43,7 +43,7 @@
 ### 5-ый круг
 
 - Внушение (Снятие внушения) / Quest (Remove Quest)
-- Воскрешение мёртвого (Приказ умереть) / Raise Dead (Finger of Death)
+- Воскрешение мёртвого (Указ смерти) / Raise Dead (Finger of Death)
 - Оберег от зла / Dispel Evil
 - Полчище насекомых / Insect Plague
 - Причастие / Commune
