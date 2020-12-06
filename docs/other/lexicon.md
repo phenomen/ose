@@ -52,7 +52,7 @@
 | Referee                         | Рефери                               |
 | Retainer                        | Спутник                              |
 | Roll                            | Проверка                             |
-| Saving Throw (SV)               | Испытание (Исп)                      |
+| Saving Throw (SV)               | Спасброски (Спас)                    |
 | Specialist                      | Специалист                           |
 | Spell                           | Заклинание                           |
 | Strength (STR)                  | Сила (СИЛ)                           |
