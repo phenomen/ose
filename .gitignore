@@ -1,5 +1,2 @@
-workspace.code-workspace
-.markdownlint.json
 package-lock.json
-/.vscode
 /node_modules

@@ -5,7 +5,7 @@
 /* Body */
 
 body
-  font-family 'PT Serif', serif
+  font-family 'PT Serif', serif !important
   font-size 1.1rem !important
 
 /* Headers */
@@ -22,9 +22,6 @@ h3
   font-size 1.7rem !important
   background-color $brandColor !important
   background-clip content-box !important
-
-h3:before
-  content " "
 
 h4
   font-size 1.3rem !important
@@ -70,6 +67,9 @@ a.sidebar-link.active
   text-decoration underline !important
 
 /* Tables */
+
+table
+  font-family Tahoma, Roboto, Helvetica, sans-serif !important
 
 th
   color $tableHeaderTextColor !important

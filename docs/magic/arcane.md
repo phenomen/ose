@@ -32,33 +32,33 @@
 
 ### 3-ий круг
 
-- Барьер / Protection from Normal Missiles
-- Область защиты от зла / Protection from Evil 10’ Radius
-- Область невидимости / Invisibility 10’ Radius
-- Огненный шар / Fire Ball
-- Подводное дыхание / Water Breathing
-- Полёт / Fly
-- Рассеивание магии / Dispel Magic
-- Спешка / Haste
-- Тепловое зрение / Infravision
-- Удар молнии / Lightning Bolt
-- Удержание личности / Hold Person
-- Ясновидение / Clairvoyance
+- [Барьер](arcane-spells/protection-from-missiles.md) / Protection from Normal Missiles
+- [Область защиты от зла](arcane-spells/protection-from-evil-area.md) / Protection from Evil 10’ Radius
+- [Область невидимости](arcane-spells/invisibility-area.md) / Invisibility 10’ Radius
+- [Огненный шар](arcane-spells/fire-ball.md) / Fire Ball
+- [Подводное дыхание](arcane-spells/water-breathing.md) / Water Breathing
+- [Полёт](arcane-spells/fly.md) / Fly
+- [Рассеивание магии](arcane-spells/dispel-magic.md) / Dispel Magic
+- [Спешка](arcane-spells/haste.md) / Haste
+- [Тепловое зрение](arcane-spells/infravision.md) / Infravision
+- [Удар молнии](arcane-spells/lightning-bolt.md) / Lightning Bolt
+- [Удержание личности](arcane-spells/hold-person.md) / Hold Person
+- [Ясновидение](arcane-spells/clairvoyance.md) / Clairvoyance
   
 ### 4-ый круг
 
-- Волшебный глаз / Wizard Eye
-- Дверь измерений / Dimension Door
-- Замешательство / Confusion
-- Ледяная стена / Wall of Ice
-- Маскировка / Massmorph
-- Мираж / Hallucinatory Terrain
-- Огненная стена / Wall of Fire
-- Очарование монстра / Charm Monster
-- Перевоплощение других / Polymorph Others
-- Перевоплощение себя / Polymorph Self
-- Разрастание растений / Growth of Plants
-- Снятие проклятия (Наложение проклятия) / Remove Curse (Curse)
+- [Волшебный глаз](arcane-spells/wizard-eye.md) / Wizard Eye
+- [Дверь измерений](arcane-spells/dimension-door.md) / Dimension Door
+- [Замешательство](arcane-spells/confusion.md) / Confusion
+- [Ледяная стена](arcane-spells/wall-of-ice.md) / Wall of Ice
+- [Маскировка](arcane-spells/massmorph.md) / Massmorph
+- [Мираж](arcane-spells/hallucinatory-terrain.md) / Hallucinatory Terrain
+- [Огненная стена](arcane-spells/wall-of-fire.md) / Wall of Fire
+- [Очарование монстра](arcane-spells/charm-monster.md) / Charm Monster
+- [Перевоплощение других](arcane-spells/polymorph-others.md) / Polymorph Others
+- [Перевоплощение себя](arcane-spells/polymorph-self.md) / Polymorph Self
+- [Разрастание растений](arcane-spells/growth-of-plants.md) / Growth of Plants
+- [Снятие проклятия (Наложение проклятия)](arcane-spells/remove-curse.md) / Remove Curse (Curse)
 
 ### 5-ый круг
 

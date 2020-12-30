@@ -24,21 +24,21 @@
 
 ### 3-ий круг
 
-- Зачарование оружия / Striking
-- Излечение болезни (Заражение болезнью) / Cure Disease (Cause Disease)
-- Нахождение объекта / Locate Object
-- Постоянный свет (Постоянная тьма) / Continual Light (Continual Darkness)
-- Рост животного / Growth of Animal
-- Снятие проклятия (Наложение проклятия) / Remove Curse (Curse)
+- [Зачарование оружия](divine-spells/striking.md) / Striking
+- [Излечение болезни (Заражение болезнью)](divine-spells/cure-disease.md) / Cure Disease (Cause Disease)
+- [Нахождение объекта](divine-spells/locate-object.md) / Locate Object
+- [Постоянный свет (Постоянная тьма)](divine-spells/continual-light.md) / Continual Light (Continual Darkness)
+- [Рост животного](divine-spells/growth-of-animal.md) / Growth of Animal
+- [Снятие проклятия (Наложение проклятия)](divine-spells/remove-curse.md) / Remove Curse (Curse)
 
 ### 4-ый круг
 
-- Исцеление серьёзных ран (Нанесение серьёзных ран) / Cure Serious Wounds (Cause Sr. Wounds)
-- Нейтрализация яда / Neutralize Poison
-- Область защиты от зла / Protection from Evil 10’ Radius
-- Общение с растениями / Speak with Plants
-- Сотворение воды / Create Water
-- Хворост в змей / Sticks to Snakes
+- [Исцеление серьёзных ран (Нанесение серьёзных ран)](divine-spells/cure-serious-wounds.md) / Cure Serious Wounds (Cause Serious Wounds)
+- [Нейтрализация яда](divine-spells/neutralize-poison.md) / Neutralize Poison
+- [Область защиты от зла](divine-spells/protection-from-evil-area.md) / Protection from Evil 10’ Radius
+- [Общение с растениями](divine-spells/speak-with-plants.md) / Speak with Plants
+- [Сотворение воды](divine-spells/create-water.md) / Create Water
+- [Хворост в змей](divine-spells/sticks-to-snakes.md) / Sticks to Snakes
 
 ### 5-ый круг
 
