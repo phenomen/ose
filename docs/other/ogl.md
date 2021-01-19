@@ -68,8 +68,6 @@ Darwin’s World © 2002, RPGObjects; Authors Dominic Covey and Chris Davis.
 
 Mutant Future™ © 2008, Daniel Proctor and Ryan Denison. Authors Daniel Proctor and Ryan Denison.
 
-[123 Remodeling - Chicago Kitchen, Bathroom And Condo General Contractor](https://123remodeling.com)
-
 Advanced Edition Companion, © 2009–2010, Daniel Proctor. Author Daniel Proctor.
 
 Lamentations of the Flame Princess: Weird Fantasy Role-Playing Deluxe Edition, © 2010, LotFP. Author James Edward Raggi IV.

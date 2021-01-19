@@ -2,6 +2,8 @@
 
 Переведенные приключения и дополнения, адаптированные для ***Old-School Essentials***.
 
+Если вы хотите добавить ваше приключение, совместимое с ***Old-School Essentials***, напишите мне в Discord: Phen#1337
+
 ## Дочь Зимы
 
 #### Winter's Daughter
@@ -17,18 +19,6 @@
 - [Купить PDF](https://necroticgnome.com/collections/dolmenwood/products/winters-daughter-pdf)
 :::
 
-::: warning
-- **Перевод и вёрстка:** Phenomen
-- **Редактура:** Llaita, StuartZaq
-:::
-
-#### Файлы
-
-- [Приключение](https://mega.nz/#!p6wwXQIR!f5cVvNf5jiVOLG6RbxZxSSUQGdNMoIOG6XRi9d07hA8) (v 1.2 от 29/1/20)
-- [Карты для рефери](https://mega.nz/#!Z6xGDC7D!re9bAJzHPI31mv4kuzpmC7tyLxOLmQF7CwhZlH5VgDQ)
-- [Карты без меток](https://mega.nz/#!orwnwQiB!QSVmgE-YwXNjxNGYg_JESasKoqp1VBvTN_OetlJt8GA)
-
-
 ## Дупло в дубе
 
 #### The Hole in the Oak
@@ -41,12 +31,6 @@
 - **Авторы:** Gavin Norman / Necrotic Gnome
 - [Купить книгу + PDF](https://necroticgnome.com/collections/adventures/products/the-hole-in-the-oak-print-pdf)
 - [Купить PDF](https://necroticgnome.com/collections/adventures/products/the-hole-in-the-oak)
-:::
-
-::: warning
-- **Перевод:** StuartZaq
-- **Вёрстка (в процессе):** Phenomen
-- **Редактура (в процессе):** Llaita
 :::
 
 ## Ведьма Червей: жизнь и смерть Белинды Блад
@@ -65,8 +49,4 @@
 ::: tip
 - **Авторы:** Ahimsa Kerp, Wind Lothamer / Knight Owl Publishing
 - [Купить книгу или PDF](https://knightowlpublishing.com/product/worm-witch-the-life-and-death-of-belinda-blood-hardback/)
-:::
-
-::: warning
-- **Перевод (в процессе):** Phenomen
 :::
