@@ -1,14 +1,12 @@
 {
-    "name": "ose-srd-ru",
-    "license": "ogl",
-    "scripts": {
-        "dev": "vuepress dev docs",
-        "build": "vuepress build docs && mv docs/.vuepress/dist public"
-    },
-    "devDependencies": {
-        "vuepress": "^1.8.0",
-        "@vuepress/plugin-back-to-top": "^1.8.0",
-        "vuepress-plugin-minimal-analytics": "^0.1.4",
-        "vuepress-plugin-reading-progress": "^1.0.10"
-    }
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^2.0.0-beta.38"
+  },
+  "devDependencies": {
+    "vuepress-plugin-clean-urls": "^1.1.2"
+  }
 }

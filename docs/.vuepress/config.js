@@ -1,149 +1,91 @@
 module.exports = {
-    docsDir: 'docs',
-    title: 'Old-School Essentials',
-    description: 'Версия на русском языке',
-    themeConfig: {
-        docsRepo: 'Phenomen/ose',
-        docsDir: 'docs',
-        smoothScroll: true,
-        editLinks: false,
-        activeHeaderLinks: true,
-        editLinkText: 'Помогите улучшить эту страницу',
-        sidebar: [{
-                title: 'Персонажи',
-                children: [
-                    '/characters/',
-                    '/characters/game-statistics',
-                    '/characters/creating-character',
-                    '/characters/ability-scores',
-                    '/characters/alignment',
-                    '/characters/languages',
-                    '/characters/advancement',
-                    '/characters/wealth',
+  lang: "ru-RU",
+  title: "Old-School Essentials",
+  description: "Правила Old-School Essentials на русском языке.",
 
-                ]
-            },
-            {
-                title: 'Классы',
-                children: [
-                    '/classes/fighter',
-                    '/classes/dwarf',
-                    '/classes/cleric',
-                    '/classes/magic-user',
-                    '/classes/thief',
-                    '/classes/halfling',
-                    '/classes/elf',
-                ]
-            },
-            {
-                title: 'Снаряжение и услуги',
-                children: [
-                    '/equipment-services/adventuring-gear',
-                    '/equipment-services/weapons-armor',
-                    '/equipment-services/vehicles-rules',
-                    '/equipment-services/vehicles-mounts',
-                    '/equipment-services/vehicles-land',
-                    '/equipment-services/vehicles-water',
-                    '/equipment-services/retainers',
-                    '/equipment-services/mercenaries',
-                    '/equipment-services/specialists',
-                    '/equipment-services/strongholds',
-                ]
-            },
-            {
-                title: 'Приключения',
-                children: [
-                    '/adventuring/party',
-                    '/adventuring/time-weight-movement',
-                    '/adventuring/checks-damage-saves',
-                    '/adventuring/hazards-challenges',
-                    '/adventuring/adventuring-dungeons',
-                    '/adventuring/adventuring-wilderness',
-                    '/adventuring/adventuring-waterborne',
-                    '/adventuring/encounters',
-                    '/adventuring/evasion-pursuit',
-                    '/adventuring/combat',
-                    '/adventuring/morale',
-                ]
-            },
-            {
-                title: 'Магия',
-                children: [
-                    '/magic/magic',
-                    '/magic/magical-research',
-                    '/magic/arcane',
-                    '/magic/divine'
-                ]
-            },
-            {
-                title: 'Монстры',
-                children: [
-                    '/monsters/monsters',
-                    '/monsters/monsters-list',
-                    '/monsters/0',
-                    '/monsters/1',
-                    '/monsters/2'
-                ]
-            },
-            {
-                title: 'Проведение игры',
-                children: [
-                    '/referee/referee-basics',
-                ]
-            },
-            {
-                title: 'Сокровища',
-                children: [
-                    '/treasures/placing-treasures',
-                    '/treasures/treasure-types',
-                    '/treasures/magic-items',
-                ]
-            },
-            {
-                title: 'Дополнительные материалы',
-                children: [
-                    '/other/character-sheet',
-                    '/other/adventures',
-                    '/other/lexicon',
-                    '/other/ogl'
-                ]
-            }
-        ]
+  themeConfig: {
+    favicon: "favicon.png",
+    lastUpdated: false,
+    contributors: false,
+    editLink: false,
+    notFound: ["Страница не найдена"],
+    backToHome: "Перейти на главную страницу",
+    sidebarDepth: 1,
+    darkMode: true,
+    tip: "",
+    danger: "",
+    warning: "",
+    info: "",
+    sidebar: [
+      {
+        text: "🟨Персонажи",
+        collapsible: true,
+        link: "/characters/",
+        children: [
+          {
+            text: "1. Вступление",
+            children: [
+              "/characters/introduction/about-the-game.md",
+              "/characters/introduction/classic-fantasy-gaming.md",
+              "/characters/introduction/terminology.md",
+              "/characters/introduction/compatibility.md",
+            ],
+          },
+          {
+            text: "2. Персонажи игроков",
+            children: [
+              "/characters/player-characters/game-statistics.md",
+              "/characters/player-characters/creating-character.md",
+              "/characters/player-characters/ability-scores.md",
+              "/characters/player-characters/alignment.md",
+              "/characters/player-characters/languages.md",
+            ],
+          },
+        ],
+      },
+      {
+        text: "🟪Приключения",
+        collapsible: true,
+        link: "/adventures/",
+        children: [
+          {
+            text: "1. В приключениях",
+            children: [
+              "/adventures/adventuring/party-organization.md",
+              "/adventures/adventuring/time-weight-and-movement.md",
+              "/adventures/adventuring/ability-checks.md",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  markdown: {
+    anchor: {
+      slugify: function slugify(string) {
+        const rControl = /[\u0000-\u001f]/g;
+        const rSpecial = /[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'“”‘’<>«»,.?/]+/g;
+        const rCombining = /[\u0300-\u036F]/g;
+
+        return string
+          .toString()
+          .normalize("NFC")
+          .replace(rCombining, "")
+          .replace(rControl, "")
+          .replace(rSpecial, "-")
+          .replace(/-{2,}/g, "-")
+          .replace(/^-+|-+$/g, "")
+          .replace(/^(\d)/, "_$1")
+          .toLowerCase();
+      },
     },
-    markdown: {
-        anchor: {
-            level: [1, 2, 3, 4]
-        }
-    },
-    plugins: [
-        ['@vuepress/back-to-top'],
-        ['reading-progress'],
-        [
-            'vuepress-plugin-container',
-            {
-                type: 'tip',
-                defaultTitle: ''
-            }
-        ],
-        [
-            'vuepress-plugin-container',
-            {
-                type: 'warning',
-                defaultTitle: ''
-            }
-        ],
-        [
-            'vuepress-plugin-container',
-            {
-                type: 'danger',
-                defaultTitle: ''
-            }
-        ],
-        [
-            'minimal-analytics',
-            {
-                'ga': 'UA-99747206-6'
-            }
-        ]
-    ]
-}
+  },
+  plugins: [
+    [
+      "@vuepress/plugin-container",
+      {
+        type: "info",
+      },
+    ],
+  ],
+};

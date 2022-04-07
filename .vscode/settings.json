@@ -1,10 +1,7 @@
 {
-    "cSpell.language": "en,ru",
-    "cSpell.words": [
-        "спасбросок",
-        "спасброску",
-        "спасброска",
-        "спасброскам",
-        "спасбросков"
-    ]
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.temp": true,
+    "node_modules": true
+  }
 }

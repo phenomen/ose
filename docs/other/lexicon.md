@@ -5,7 +5,6 @@
 | Английский                      | Русский                              |
 | :------------------------------ | :----------------------------------- |
 | Ability Score                   | Характеристика                       |
-| Adventure                       | Приключение                          |
 | Alignment (AL)                  | Мировоззрение (Мир)                  |
 | Arcane                          | Мистический                          |
 | Area                            | Область                              |
@@ -13,8 +12,6 @@
 | Attack Roll to Hit AC 0 (THAC0) | Атака для попадания по КБ 0 (АПОКБ0) |
 | Attacks Usable Per Round (Att)  | Атаки за раунд (Атаки)               |
 | Bonus                           | Бонус                                |
-| Campaign                        | Кампания                             |
-| Chance                          | Шанс                                 |
 | Character (PC)                  | Персонаж                             |
 | Charisma (CHA)                  | Харизма (ХАР)                        |
 | Check                           | Проверка                             |
@@ -26,7 +23,6 @@
 | Dexterity (DEX)                 | Ловкость (ЛВК)                       |
 | Dice                            | Кость                                |
 | Divine                          | Божественный                         |
-| Dungeon                         | Подземелье                           |
 | Encounter                       | Столкновение                         |
 | Evasion                         | Побег                                |
 | Experience Points (XP)          | Пункты опыта (ПО)                    |
@@ -46,7 +42,7 @@
 | Non-Player Character (NPC)      | Персонаж рефери                      |
 | Party                           | Партия                               |
 | Player                          | Игрок                                |
-| Prime Requisite                 | Основная характеристика              |
+| Prime Requisite                 | Ключевая характеристика              |
 | Pursuit                         | Погоня                               |
 | Race                            | Раса                                 |
 | Referee                         | Рефери                               |
