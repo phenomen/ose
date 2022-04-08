@@ -47,8 +47,8 @@ html.dark {
 }
 
 h3 {
-  background-color: var(--c-brand-light) !important;
-  background-clip: content-box !important;
+  background-color: var(--c-brand-light);
+  background-clip: content-box;
 }
 
 blockquote {
@@ -57,7 +57,7 @@ blockquote {
 }
 
 .theme-default-content li {
-  list-style-type: "▸" !important;
+  list-style-type: "▸";
 }
 
 .sidebar-item.sidebar-heading {

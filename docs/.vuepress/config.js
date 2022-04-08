@@ -12,10 +12,10 @@ module.exports = {
     backToHome: "Перейти на главную страницу",
     sidebarDepth: 1,
     darkMode: true,
-    tip: "",
-    danger: "",
-    warning: "",
-    info: "",
+    tip: " ",
+    danger: " ",
+    warning: " ",
+    info: " ",
     sidebar: [
       {
         text: "🟨Персонажи",
