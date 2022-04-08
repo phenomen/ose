@@ -5,6 +5,7 @@
 | Английский                      | Русский                              |
 | :------------------------------ | :----------------------------------- |
 | Ability Score                   | Характеристика                       |
+| Adventurer                      | Искатель приключений                 |
 | Alignment (AL)                  | Мировоззрение (Мир)                  |
 | Arcane                          | Мистический                          |
 | Area                            | Область                              |
@@ -40,15 +41,15 @@
 | Morale (ML)                     | Боевой дух (БД)                      |
 | Movement Rate (MV)              | Скорость движения (СД)               |
 | Non-Player Character (NPC)      | Персонаж рефери                      |
-| Party                           | Партия                               |
-| Player                          | Игрок                                |
+| Party                           | Группа                               |
+| Player Character (PC)           | Персонаж игрока                      |
 | Prime Requisite                 | Ключевая характеристика              |
 | Pursuit                         | Погоня                               |
 | Race                            | Раса                                 |
 | Referee                         | Рефери                               |
 | Retainer                        | Спутник                              |
 | Roll                            | Проверка                             |
-| Saving Throw (SV)               | Спасброски (Спас)                    |
+| Saving Throw (SV)               | Испытание                            |
 | Specialist                      | Специалист                           |
 | Spell                           | Заклинание                           |
 | Strength (STR)                  | Сила (СИЛ)                           |

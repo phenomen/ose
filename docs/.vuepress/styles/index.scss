@@ -9,8 +9,8 @@
   // text colors
   --c-text: #1c1917;
   --c-text-light: #292524;
-  --c-text-lighter: #44403c;
-  --c-text-lightest: #57534e;
+  --c-text-lighter: #57534e;
+  --c-text-lightest: #78716c;
 
   // brand colors
   --c-brand: #709960;
@@ -33,10 +33,10 @@ html.dark {
   --c-bg-lighter: #44403c;
 
   // text colors
-  --c-text: #e7e5e4;
-  --c-text-light: #f5f5f4;
-  --c-text-lighter: #fafaf9;
-  --c-text-lightest: #fafaf9;
+  --c-text: #fafaf9;
+  --c-text-light: #e7e5e4;
+  --c-text-lighter: #d6d3d1;
+  --c-text-lightest: #a8a29e;
 
   // custom containers
   --c-info: #78716c;
@@ -49,6 +49,7 @@ html.dark {
 h3 {
   background-color: var(--c-brand-light);
   background-clip: content-box;
+  line-height: 2;
 }
 
 blockquote {
@@ -56,7 +57,7 @@ blockquote {
   font-family: var(--font-family-serif);
 }
 
-.theme-default-content li {
+.theme-default-content ul {
   list-style-type: "▸";
 }
 
@@ -65,8 +66,19 @@ blockquote {
 }
 
 p.sidebar-item {
-  font-style: italic !important;
   font-weight: 600 !important;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  text-decoration: underline;
+}
+
+.sidebar-item-children
+  .sidebar-item-children
+  .sidebar-item-children
+  .sidebar-item:not(.sidebar-heading) {
+  color: var(--c-text-lightest) !important;
 }
 
 .custom-container {
@@ -88,4 +100,62 @@ p.sidebar-item {
       color: var(--c-info-text-accent);
     }
   }
+}
+
+// Hero
+
+.home .hero .description {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: var(--c-text-lighter);
+}
+
+.home .feature p {
+  font-size: 0.9rem;
+}
+
+.home .hero .action-button {
+  border: none;
+  color: white;
+  padding: 0.8rem 1rem;
+}
+
+.home .hero .action-button.characters {
+  background-color: #caa835;
+}
+
+.home .hero .action-button.characters:hover {
+  background-color: #aa8d2e;
+}
+
+.home .hero .action-button.adventures {
+  background-color: #5d1c5e;
+}
+
+.home .hero .action-button.adventures:hover {
+  background-color: #4a174b;
+}
+
+.home .hero .action-button.magic {
+  background-color: #216935;
+}
+
+.home .hero .action-button.magic:hover {
+  background-color: #185028;
+}
+
+.home .hero .action-button.monsters {
+  background-color: #7d1416;
+}
+
+.home .hero .action-button.monsters:hover {
+  background-color: #681316;
+}
+
+.home .hero .action-button.treasures {
+  background-color: #1a3075;
+}
+
+.home .hero .action-button.treasures:hover {
+  background-color: #162657;
 }

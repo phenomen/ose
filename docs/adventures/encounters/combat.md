@@ -2,7 +2,7 @@
 
 ::: tip Порядок боя в каждом раунде
 
-1. \*\*\*\*[Заявление заклинаний и отступлений](combat.md#1-zayavlenie-zaklinanii-i-otstuplenii)
+1. [Заявление заклинаний и отступлений](combat.md#1-zayavlenie-zaklinanii-i-otstuplenii)
 2. [Проверка инициативы](combat.md#2-iniciativa)
 3. Действия победившей стороны:
 
