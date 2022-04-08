@@ -1,7 +1,9 @@
 ---
 home: true
 navbar: false
-heroImage: /img/logo.png
+sidebar: false
+heroImage: /img/Designed_For_Use_With_Old-School_Essentials_-_White.png
+heroImageDark: /img/Designed_For_Use_With_Old-School_Essentials_-_Black.png
 heroText: Old-School Essentials SRD
 heroAlt: Правила Old-School Essentials на русском языке
 tagline: Опасные монстры и хитроумные ловушки, глубокие подземелья и зловещие планы, волшебные сокровища и захватывающие приключения. Играйте так, как было задумано основателями ролевых игр.

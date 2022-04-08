@@ -10,7 +10,7 @@ module.exports = {
     editLink: false,
     notFound: ["Страница не найдена"],
     backToHome: "Перейти на главную страницу",
-    sidebarDepth: 1,
+    sidebarDepth: 0,
     darkMode: true,
     tip: " ",
     danger: " ",
@@ -24,6 +24,7 @@ module.exports = {
         children: [
           {
             text: "1. Вступление",
+            link: "/characters/introduction/about-the-game.md",
             collapsible: true,
             children: [
               "/characters/introduction/about-the-game.md",
@@ -34,6 +35,7 @@ module.exports = {
           },
           {
             text: "2. Персонажи игроков",
+            link: "/characters/player-characters/game-statistics.md",
             collapsible: true,
             children: [
               "/characters/player-characters/game-statistics.md",
@@ -45,6 +47,7 @@ module.exports = {
           },
           {
             text: "3. Классы персонажей",
+            link: "/characters/character-classes/fighter.md",
             collapsible: true,
             children: [
               "/characters/character-classes/fighter.md",
@@ -58,6 +61,7 @@ module.exports = {
           },
           {
             text: "4. Развитие",
+            link: "/characters/advancement/experience.md",
             collapsible: true,
             children: [
               "/characters/advancement/experience.md",
@@ -68,6 +72,7 @@ module.exports = {
           },
           {
             text: "5. Снаряжение",
+            link: "/characters/equipment/adventuring-gear.md",
             collapsible: true,
             children: [
               "/characters/equipment/adventuring-gear.md",
@@ -76,6 +81,7 @@ module.exports = {
           },
           {
             text: "6. Транспорт",
+            link: "/characters/vehicles-and-mounts/rules-for-vehicles.md",
             collapsible: true,
             children: [
               "/characters/vehicles-and-mounts/rules-for-vehicles.md",
@@ -86,6 +92,7 @@ module.exports = {
           },
           {
             text: "7. Наёмная помощь",
+            link: "/characters/hired-help/retainers.md",
             collapsible: true,
             children: [
               "/characters/hired-help/retainers.md",
@@ -95,11 +102,48 @@ module.exports = {
           },
           {
             text: "8. Крепости",
+            link: "/characters/strongholds/construction.md",
             collapsible: true,
             children: [
               "/characters/strongholds/construction.md",
               "/characters/strongholds/domain-management.md",
               "/characters/strongholds/structures.md",
+            ],
+          },
+        ],
+      },
+      {
+        text: "🟩Магия",
+        collapsible: true,
+        link: "/magic/",
+        children: [
+          {
+            text: "1. Магия",
+            link: "/magic/magic/spells.md",
+            collapsible: true,
+            children: [
+              "/magic/magic/spells.md",
+              "/magic/magic/spell-books.md",
+              "/magic/magic/magical-research.md",
+            ],
+          },
+          {
+            text: "2. Божественные заклинания",
+            link: "/magic/divine/",
+            collapsible: true,
+            children: [
+              "/magic/divine/divine-spells-1.md",
+              "/magic/divine/divine-spells-2.md",
+              "/magic/divine/divine-spells-3.md",
+            ],
+          },
+          {
+            text: "3. Мистические заклинания",
+            link: "/magic/arcane/",
+            collapsible: true,
+            children: [
+              "/magic/arcane/arcane-spells-1.md",
+              "/magic/arcane/arcane-spells-2.md",
             ],
           },
         ],
@@ -111,6 +155,7 @@ module.exports = {
         children: [
           {
             text: "1. В приключениях",
+            link: "/adventures/adventuring/party-organization.md",
             collapsible: true,
             children: [
               "/adventures/adventuring/party-organization.md",
@@ -125,6 +170,7 @@ module.exports = {
           },
           {
             text: "2. В столкновениях",
+            link: "/adventures/encounters/encounters.md",
             collapsible: true,
             children: [
               "/adventures/encounters/encounters.md",
@@ -137,6 +183,7 @@ module.exports = {
           },
           {
             text: "3. Проведение приключений",
+            link: "/adventures/running-adventures/the-referees-role.md",
             collapsible: true,
             children: [
               "/adventures/running-adventures/the-referees-role.md",
@@ -148,6 +195,42 @@ module.exports = {
               "/adventures/running-adventures/designing-a-wilderness.md",
               "/adventures/running-adventures/designing-a-base-town.md",
               "/adventures/running-adventures/awarding-xp.md",
+            ],
+          },
+        ],
+      },
+      {
+        text: "🟥Монстры",
+        collapsible: true,
+        link: "/monsters/",
+        children: [
+          {
+            text: "1. Монстры",
+            link: "/monsters/monsters/game-statistics.md",
+            collapsible: true,
+            children: [
+              "/monsters/monsters/game-statistics.md",
+              "/monsters/monsters/monsters-hd-0.md",
+              "/monsters/monsters/monsters-hd-1.md",
+              "/monsters/monsters/monsters-hd-2.md",
+            ],
+          },
+          {
+            text: "2. Столкновения с монстрами",
+            link: "/monsters/encounter-tables/dungeons.md",
+            collapsible: true,
+            children: [
+              "/monsters/encounter-tables/dungeons.md",
+              "/monsters/encounter-tables/wilderness.md",
+            ],
+          },
+          {
+            text: "3. Столкновения с персонажами",
+            link: "/monsters/npc-encounters/adventuring-parties.md",
+            collapsible: true,
+            children: [
+              "/monsters/npc-encounters/adventuring-parties.md",
+              "/monsters/npc-encounters/strongholds.md",
             ],
           },
         ],

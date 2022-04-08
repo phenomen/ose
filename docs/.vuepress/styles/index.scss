@@ -2,6 +2,7 @@
 @import url("https://rsms.me/inter/inter.css");
 
 :root {
+  --content-width: 920px;
   // fonts
   --font-family: "Inter", serif;
   --font-family-serif: "PT Serif", "Georgia", sans-serif;
@@ -52,6 +53,10 @@ h3 {
   line-height: 2;
 }
 
+h3::before {
+  content: "\00a0 ";
+}
+
 blockquote {
   font-style: italic;
   font-family: var(--font-family-serif);
@@ -62,23 +67,24 @@ blockquote {
 }
 
 .sidebar-item.sidebar-heading {
-  text-transform: uppercase !important;
+  text-transform: uppercase;
 }
 
-p.sidebar-item {
-  font-weight: 600 !important;
-  cursor: pointer;
+.sidebar-item-children .sidebar-item:not(p.sidebar-heading) {
+  font-weight: 600;
 }
 
-.sidebar-item:hover {
+.sidebar-item-children .sidebar-item:hover {
   text-decoration: underline;
 }
 
-.sidebar-item-children
-  .sidebar-item-children
-  .sidebar-item-children
-  .sidebar-item:not(.sidebar-heading) {
-  color: var(--c-text-lightest) !important;
+.sidebar-item-children .sidebar-item-children .sidebar-item {
+  color: var(--c-text-lightest);
+  font-weight: 400 !important;
+}
+
+.sidebar-item-children .sidebar-item-children .sidebar-item:active {
+  color: var(--c-brand) !important;
 }
 
 .custom-container {

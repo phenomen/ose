@@ -52,6 +52,7 @@
 | Saving Throw (SV)               | Испытание                            |
 | Specialist                      | Специалист                           |
 | Spell                           | Заклинание                           |
+| Statistics                      | Атрибуты                             |
 | Strength (STR)                  | Сила (СИЛ)                           |
 | Surprise                        | Эффект неожиданности                 |
 | Treasure                        | Сокровище                            |
