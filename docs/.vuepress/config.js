@@ -244,7 +244,7 @@ module.exports = {
         children: [],
       },
       {
-        text: "🟫Другое",
+        text: "🟫Дополнительно",
         collapsible: true,
         children: [
           "/extras/ogl.md",
