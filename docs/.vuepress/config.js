@@ -237,6 +237,22 @@ module.exports = {
           },
         ],
       },
+      {
+        text: "🟦Сокровища",
+        collapsible: true,
+        link: "/treasures/",
+        children: [],
+      },
+      {
+        text: "🟫Другое",
+        collapsible: true,
+        children: [
+          "/extras/ogl.md",
+          "/extras/character-sheet.md",
+          "/extras/lexicon.md",
+          "/extras/adventures.md",
+        ],
+      },
     ],
   },
   markdown: {

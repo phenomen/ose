@@ -24,15 +24,15 @@
 
 ## Обнаружение ловушек
 
-Как эксперты по строительству, дворфы имеют шанс 2-к-6 на обнаружение не-магических ловушек [при поиске](/adventuring/adventures/adventuring-dungeons.md#poisk-lovushek).
+Как эксперты по строительству, дворфы имеют шанс 2-к-6 на обнаружение не-магических ловушек [при поиске](../../adventures/adventuring/dungeon-adventuring.md#поиск-ловушек).
 
 ## Тепловое зрение
 
-Дворфы видят [в темноте](/adventuring/adventures/hazards-challenges.md#temnota) до 60’.
+Дворфы видят [в темноте](../../adventures/adventuring/hazards-and-challenges.md#темнота) до 60’.
 
 ## Чуткий слух
 
-Дворфы имеют шанс 2-к-6 на [прислушивание](/adventuring/adventures/adventuring-dungeons.md#prislushivanie-k-dveryam) к дверям или бродячим монстрам.
+Дворфы имеют шанс 2-к-6 на [прислушивание](../../adventures/adventuring/dungeon-adventuring.md#прислушивание-к-дверям) к дверям или бродячим монстрам.
 
 ## После 9-го уровня
 
