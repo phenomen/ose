@@ -293,9 +293,7 @@ module.exports = {
     [
       "@vuepress/register-components",
       {
-        components: {
-          Coin: path.resolve(__dirname, "./components/Coin.vue"),
-        },
+        componentsDir: path.resolve(__dirname, "./components"),
       },
     ],
   ],

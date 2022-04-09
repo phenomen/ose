@@ -1,7 +1,15 @@
 <script setup>
 defineProps({
-  v: Number,
-  t: String,
+  v: {
+    type: Number,
+    required: true,
+    default: "1",
+  },
+  t: {
+    type: String,
+    required: false,
+    default: "g",
+  },
 });
 </script>
 
@@ -9,9 +17,9 @@ defineProps({
   <div class="block">
     {{ Number.parseInt(v).toLocaleString("ru-RU")
     }}<span class="coin" :class="t" v-if="t === 'p'">пм</span
-    ><span class="coin" :class="t" v-else-if="t === 'g'">зм</span
+    ><span class="coin" :class="t" v-else-if="t === 'c'">мм</span
     ><span class="coin" :class="t" v-else-if="t === 'e'">эм</span
     ><span class="coin" :class="t" v-else-if="t === 's'">см</span
-    ><span class="coin" :class="t" v-else>мм</span>
+    ><span class="coin" :class="t" v-else>зм</span>
   </div>
 </template>
