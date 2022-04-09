@@ -4,8 +4,8 @@
 :root {
   --content-width: 920px;
   // fonts
-  --font-family: "Inter", serif;
-  --font-family-serif: "PT Serif", "Georgia", sans-serif;
+  --font-family: "Inter", "Arial", sans-serif;
+  --font-family-serif: "PT Serif", "Georgia", serif;
 
   // text colors
   --c-text: #1c1917;
@@ -199,4 +199,34 @@ table {
 
 .home .hero .action-button.treasures:hover {
   background-color: #162657;
+}
+
+// COIN
+
+.block {
+  display: inline-block;
+}
+
+.coin {
+  padding: 0.15rem;
+  border-radius: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-left: 1px;
+}
+.coin.p {
+  background-color: #94a3b8;
+}
+.coin.g {
+  background-color: #fcd34d;
+}
+.coin.e {
+  background-color: #7dd3fc;
+}
+.coin.s {
+  background-color: #cbd5e1;
+}
+.coin.c {
+  background-color: #d97706;
 }

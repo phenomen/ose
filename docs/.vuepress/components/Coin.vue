@@ -15,33 +15,3 @@ defineProps({
     ><span class="coin" :class="t" v-else>мм</span>
   </div>
 </template>
-
-<style>
-.block {
-  display: inline-block;
-}
-
-.coin {
-  padding: 0.15rem;
-  border-radius: 100%;
-  font-size: 14px;
-  font-weight: 600;
-  color: black;
-  margin-left: 1px;
-}
-.coin.p {
-  background-color: #94a3b8;
-}
-.coin.g {
-  background-color: #fcd34d;
-}
-.coin.e {
-  background-color: #7dd3fc;
-}
-.coin.s {
-  background-color: #cbd5e1;
-}
-.coin.c {
-  background-color: #d97706;
-}
-</style>
