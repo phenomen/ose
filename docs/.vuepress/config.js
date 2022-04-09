@@ -1,3 +1,5 @@
+const { path } = require("@vuepress/utils");
+
 module.exports = {
   lang: "ru-RU",
   title: "Old-School Essentials",
@@ -262,6 +264,22 @@ module.exports = {
       "@vuepress/plugin-container",
       {
         type: "info",
+      },
+    ],
+    [
+      "@vuepress/plugin-container",
+      {
+        type: "ref",
+        before: () => `<div class="custom-container ref">`,
+        after: () => `</div>`,
+      },
+    ],
+    [
+      "@vuepress/register-components",
+      {
+        components: {
+          Coin: path.resolve(__dirname, "./components/Coin.vue"),
+        },
       },
     ],
   ],

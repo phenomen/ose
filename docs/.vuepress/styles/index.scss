@@ -40,6 +40,8 @@ html.dark {
   --c-text-lightest: #a8a29e;
 
   // custom containers
+  --c-tip: var(--c-brand);
+  --c-tip-bg: #064e3b;
   --c-info: #78716c;
   --c-info-bg: #44403c;
   --c-info-text: #f5f5f4;
@@ -47,10 +49,21 @@ html.dark {
   --c-info-text-accent: #d6d3d1;
 }
 
+h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  border-bottom: none;
+}
+
 h3 {
   background-color: var(--c-brand-light);
   background-clip: content-box;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 h3::before {
@@ -60,6 +73,10 @@ h3::before {
 blockquote {
   font-style: italic;
   font-family: var(--font-family-serif);
+}
+
+table {
+  font-size: 14px;
 }
 
 .theme-default-content ul {
@@ -103,7 +120,25 @@ blockquote {
     }
 
     a {
-      color: var(--c-info-text-accent);
+      color: var(--c-brand);
+    }
+  }
+  &.ref {
+    border-color: var(--c-brand);
+    background-color: var(--c-info-bg);
+    color: var(--c-info-text);
+
+    padding: 0.1rem 1rem;
+    border-left-width: 0.5rem;
+    border-left-style: dashed;
+    margin: 1rem 0;
+
+    .custom-container-title {
+      color: var(--c-info-title);
+    }
+
+    a {
+      color: var(--c-brand);
     }
   }
 }
