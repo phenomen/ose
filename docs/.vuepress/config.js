@@ -1,11 +1,16 @@
 const { path } = require("@vuepress/utils");
+const { defaultTheme } = require("vuepress");
+const { containerPlugin } = require("@vuepress/plugin-container");
+const {
+  registerComponentsPlugin,
+} = require("@vuepress/plugin-register-components");
 
 module.exports = {
   lang: "ru-RU",
   title: "Old-School Essentials",
   description: "Правила Old-School Essentials на русском языке.",
 
-  themeConfig: {
+  theme: defaultTheme({
     favicon: "favicon.png",
     lastUpdated: false,
     contributors: false,
@@ -254,7 +259,7 @@ module.exports = {
         ],
       },
     ],
-  },
+  }),
   markdown: {
     anchor: {
       slugify: function slugify(string) {
@@ -276,25 +281,17 @@ module.exports = {
     },
   },
   plugins: [
-    [
-      "@vuepress/plugin-container",
-      {
-        type: "info",
-      },
-    ],
-    [
-      "@vuepress/plugin-container",
-      {
-        type: "ref",
-        before: () => `<div class="custom-container ref">`,
-        after: () => `</div>`,
-      },
-    ],
-    [
-      "@vuepress/register-components",
-      {
-        componentsDir: path.resolve(__dirname, "./components"),
-      },
-    ],
+    containerPlugin({
+      type: "info",
+    }),
+    containerPlugin({
+      type: "ref",
+      before: () => `<div class="custom-container ref">`,
+      after: () => `</div>`,
+    }),
+
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, "./components"),
+    }),
   ],
 };

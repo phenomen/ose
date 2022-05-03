@@ -25,6 +25,8 @@
   --c-info-text: #292524;
   --c-info-title: #292524;
   --c-info-text-accent: #fafaf9;
+  --c-ref: #0369a1;
+  --c-ref-bg: #f0f9ff;
 }
 
 html.dark {
@@ -124,9 +126,9 @@ table {
     }
   }
   &.ref {
-    border-color: var(--c-brand);
-    background-color: var(--c-info-bg);
-    color: var(--c-info-text);
+    border-color: var(--c-ref);
+    background-color: var(--c-ref-bg);
+    color: var(--c-text);
 
     padding: 0.1rem 1rem;
     border-left-width: 0.5rem;
@@ -138,7 +140,7 @@ table {
     }
 
     a {
-      color: var(--c-brand);
+      color: var(--c-ref);
     }
   }
 }
