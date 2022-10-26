@@ -1,5 +1,5 @@
 ---
-next: /characters/magic/magic/spells.md
+next: /magic/magic/spells.md
 ---
 
 # Книга «Магия»

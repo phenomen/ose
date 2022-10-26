@@ -2,12 +2,12 @@
 home: true
 navbar: false
 sidebar: false
-heroImage: /img/Designed_For_Use_With_Old-School_Essentials_-_White.png
-heroImageDark: /img/Designed_For_Use_With_Old-School_Essentials_-_Black.png
+heroImage: /img/logo.png
+heroImageDark: /img/logo.png
 heroText: Old-School Essentials SRD
 heroAlt: Правила Old-School Essentials на русском языке
 tagline: Опасные монстры и хитроумные ловушки, глубокие подземелья и зловещие планы, волшебные сокровища и захватывающие приключения. Играйте так, как было задумано основателями ролевых игр.
-footer: © 2022 Все права на Old-School Essentials принадлежат Necrotic Gnome и Gavin Norman. Использование логотипа и названия Old-School Essentials для перевода SRD было получено у правообладателя. Остальная часть SRD распространяется по OGL лицензии.
+footer: © 2022 Все права на Old-School Essentials принадлежат Necrotic Gnome и Gavin Norman. Разрешение на использование логотипа и названия Old-School Essentials было получено у правообладателя. Остальная часть SRD распространяется по Open Game License.
 actions:
   - text: I. Персонажи
     link: /characters/

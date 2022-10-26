@@ -4,8 +4,11 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.49",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.49",
-    "webpack": "^5.74.0"
+    "vuepress": "next",
+    "@vuepress/plugin-register-components": "next",
+    "@vuepress/plugin-container": "next",
+    "@vuepress/client": "next",
+    "@vuepress/utils": "next",
+    "vue": "^3.2.41"
   }
 }

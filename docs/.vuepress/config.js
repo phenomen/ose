@@ -1,11 +1,11 @@
-const { path } = require("@vuepress/utils");
-const { defaultTheme } = require("vuepress");
-const { containerPlugin } = require("@vuepress/plugin-container");
-const {
-  registerComponentsPlugin,
-} = require("@vuepress/plugin-register-components");
+import { defineUserConfig, defaultTheme } from 'vuepress'
+import { getDirname, path } from '@vuepress/utils'
+import { containerPlugin } from '@vuepress/plugin-container'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
-module.exports = {
+const __dirname = getDirname(import.meta.url)
+
+export default defineUserConfig({
   lang: "ru-RU",
   title: "Old-School Essentials",
   description: "Правила Old-School Essentials на русском языке.",
@@ -289,9 +289,8 @@ module.exports = {
       before: () => `<div class="custom-container ref">`,
       after: () => `</div>`,
     }),
-
     registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, "./components"),
+      componentsDir: path.resolve(__dirname, './components'),
     }),
   ],
-};
+});

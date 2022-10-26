@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://rsms.me/inter/inter.css");
 
 :root {
   --content-width: 920px;
   // fonts
-  --font-family: "Inter", "Arial", sans-serif;
-  --font-family-serif: "PT Serif", "Georgia", serif;
+  --font-family: "Inter", "Roboto", "Arial", sans-serif;
+  --font-family-serif: "Georgia", serif;
 
   // text colors
   --c-text: #1c1917;
