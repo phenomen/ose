@@ -1,9 +1,10 @@
 ---
 home: true
+title: OSE
 navbar: false
 sidebar: false
-heroImage: /img/logo.png
-heroImageDark: /img/logo.png
+heroImage: /logo.png
+heroImageDark: /logo-dark.png
 heroText: Old-School Essentials SRD
 heroAlt: Правила Old-School Essentials на русском языке
 tagline: Опасные монстры и хитроумные ловушки, глубокие подземелья и зловещие планы, волшебные сокровища и захватывающие приключения. Играйте так, как было задумано основателями ролевых игр.

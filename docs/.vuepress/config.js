@@ -9,9 +9,9 @@ export default defineUserConfig({
   lang: "ru-RU",
   title: "Old-School Essentials",
   description: "Правила Old-School Essentials на русском языке.",
-
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   theme: defaultTheme({
-    favicon: "favicon.png",
+    favicon: "/favicon.png",
     lastUpdated: false,
     contributors: false,
     editLink: false,
