@@ -431,7 +431,7 @@ export const SidebarTreasures = [
 
 export const SidebarExtras = [
 	{
-		text: 'Дополнительно',
+		text: 'Другое',
 		items: [
 			{ text: 'Open Game License', link: '/extras/ogl' },
 			{ text: 'Бланки персонажей', link: '/extras/character-sheet' },
