@@ -1,14 +1,18 @@
 {
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
-  "devDependencies": {
-    "vuepress": "next",
-    "@vuepress/plugin-register-components": "next",
-    "@vuepress/plugin-container": "next",
-    "@vuepress/client": "next",
-    "@vuepress/utils": "next",
-    "vue": "^3.2.41"
-  }
+	"name": "ose-ru-next",
+	"version": "1.0.0",
+	"description": "Old School Essentials - Перевод на русский язык",
+	"scripts": {
+		"dev": "vitepress dev srd",
+		"build": "vitepress build srd",
+		"serve": "vitepress serve srd"
+	},
+	"keywords": [],
+	"author": "phenomen#1337",
+	"license": "Open Game License",
+	"dependencies": {
+		"sass": "^1.58.1",
+		"vitepress": "1.0.0-alpha.46",
+		"vue": "^3.2.47"
+	}
 }

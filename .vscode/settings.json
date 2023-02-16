@@ -1,7 +1,0 @@
-{
-  "files.exclude": {
-    "**/.cache": true,
-    "**/.temp": true,
-    "node_modules": true
-  }
-}

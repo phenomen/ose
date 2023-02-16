@@ -1,25 +1,16 @@
-# VuePress files
-docs/.vuepress/.temp/
-docs/.vuepress/.cache/
-docs/.vuepress/dist/
-
-# Dist files
-lib/
-
-# Test temp files
-**/__fixtures__/.temp/
-
-# Test coverage files
-coverage/
-
-# Node modules
-node_modules/
-
-# MacOS Desktop Services Store
-.DS_Store
-
-# Log files
+/coverage
+/src/client/shared.ts
+/src/node/shared.ts
 *.log
-
-# Typescript build info
-*.tsbuildinfo
+*.tgz
+.DS_Store
+.idea
+.temp
+.vite_opt_cache
+.vscode
+dist
+cache
+examples-temp
+node_modules
+pnpm-global
+TODOs.md
