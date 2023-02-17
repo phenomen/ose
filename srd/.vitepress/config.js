@@ -9,7 +9,7 @@ export default defineConfig({
 	head: [['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }]],
 
 	// 404 on Vercel?
-	cleanUrls: true,
+	//cleanUrls: true,
 
 	themeConfig: {
 		siteTitle: 'OSE SRD',
