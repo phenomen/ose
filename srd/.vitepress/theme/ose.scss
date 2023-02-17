@@ -74,10 +74,11 @@
 	}
 
 	& blockquote {
-		font-family: serif !important;
+		font-family: 'Georgia', 'Times New Roman', Times, serif;
+		font-style: italic;
 
 		& p {
-			font-size: 1.2rem !important;
+			font-size: 1.1rem !important;
 		}
 	}
 
