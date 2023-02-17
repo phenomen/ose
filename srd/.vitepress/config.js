@@ -8,7 +8,8 @@ export default defineConfig({
 	description: 'Old School Essentials на русском языке.',
 	head: [['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }]],
 
-	cleanUrls: true,
+	// 404 on Vercel?
+	//cleanUrls: true,
 
 	themeConfig: {
 		siteTitle: 'OSE SRD',
