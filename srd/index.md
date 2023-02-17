@@ -6,10 +6,6 @@ layout: home
 hero:
     name: Old-School Essentials
     text: на русском языке
-    image:
-        light: /img/logo.png
-        dark: /img/logo-dark.png
-
     tagline: Опасные чудовища и хитроумные ловушки, глубокие подземелья и зловещие планы, волшебные сокровища и захватывающие приключения. Играйте так, как было задумано основателями ролевых игр.
     actions:
         - text: Персонажи

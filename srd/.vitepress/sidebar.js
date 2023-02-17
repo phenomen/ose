@@ -126,7 +126,7 @@ export const SidebarCharacters = [
 				collapsed: true,
 				items: [
 					{
-						text: 'Правила транспорта',
+						text: 'Правила для транспорта',
 						link: '/characters/vehicles-and-mounts/rules-for-vehicles',
 					},
 					{

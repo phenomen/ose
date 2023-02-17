@@ -5,7 +5,7 @@
 	--vp-c-brand-light: #d8e9d2;
 	--vp-c-brand-lighter: #eef5ec;
 	--vp-c-brand-dark: #638854;
-	--vp-c-brand-darker: #363f33;
+	--vp-c-brand-darker: #2a2e29;
 
 	--vp-custom-block-info-border: var(--vp-c-border);
 	--vp-custom-block-info-text: var(--vp-c-text-1);
@@ -19,7 +19,7 @@
 .dark {
 	--vp-c-brand: #99bb8b;
 	--vp-c-brand-light: #638854;
-	--vp-c-brand-lighter: #363f33;
+	--vp-c-brand-lighter: #2a2e29;
 	--vp-c-brand-dark: #d8e9d2;
 	--vp-c-brand-darker: #eef5ec;
 
@@ -63,6 +63,7 @@
 		color: var(--vp-c-brand-darker);
 		background-color: var(--vp-c-brand-light);
 		background-clip: content-box !important;
+		font-size: 1.2rem !important;
 		line-height: 2rem !important;
 		margin-top: 2.5rem !important;
 		margin-bottom: 1rem !important;
@@ -82,19 +83,20 @@
 
 	& table {
 		& th {
-			padding-left: 8px !important;
-			padding-right: 8px !important;
+			padding-left: 10px !important;
+			padding-right: 10px !important;
 			border: none !important;
 			font-size: 0.8rem;
 			font-weight: 700;
+			line-height: 1rem;
 		}
 
 		& td {
 			border: none !important;
 			white-space: nowrap;
-			padding-left: 8px !important;
-			padding-right: 8px !important;
-			font-size: 0.9rem;
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+			font-size: 0.8rem;
 
 			&:nth-child(1) {
 				font-weight: 600;
@@ -165,45 +167,45 @@ footer .message {
 	border: none !important;
 	border-radius: 0.3rem !important;
 	color: white !important;
-	padding: 0.2rem 0.6rem !important;
+	padding: 0.2rem 0.8rem !important;
 
 	&.characters {
-		background-color: #caa835;
+		background-color: #f59e0b;
 
 		&:hover {
-			background-color: #aa8d2e;
+			background-color: #d97706;
 		}
 	}
 
 	&.adventures {
-		background-color: #5d1c5e;
+		background-color: #9333ea;
 
 		&:hover {
-			background-color: #4a174b;
+			background-color: #7e22ce;
 		}
 	}
 
 	&.magic {
-		background-color: #216935;
+		background-color: #16a34a;
 
 		&:hover {
-			background-color: #185028;
+			background-color: #15803d;
 		}
 	}
 
 	&.monsters {
-		background-color: #7d1416;
+		background-color: #dc2626;
 
 		&:hover {
-			background-color: #681316;
+			background-color: #b91c1c;
 		}
 	}
 
 	&.treasures {
-		background-color: #1a3075;
+		background-color: #2563eb;
 
 		&:hover {
-			background-color: #162657;
+			background-color: #1d4ed8;
 		}
 	}
 }
@@ -216,8 +218,8 @@ footer .message {
 	font-size: 0.8rem;
 	border-radius: 50%;
 	margin: 0px 1px;
-	width: 25px;
-	line-height: 25px;
+	width: 22px;
+	line-height: 22px;
 	display: inline-block;
 	text-align: center;
 
