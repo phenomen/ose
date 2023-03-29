@@ -60,7 +60,7 @@ export const SidebarCharacters = [
 						link: '/characters/character-classes/fighter',
 					},
 					{
-						text: 'Дворф',
+						text: 'Дварф',
 						link: '/characters/character-classes/dwarf',
 					},
 					{
