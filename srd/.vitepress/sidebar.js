@@ -212,7 +212,7 @@ export const SidebarMagic = [
 				collapsed: true,
 				items: [
 					{
-						text: 'Божественные заклинания',
+						text: 'Список заклинаний',
 						link: '/magic/divine/divine-spells',
 					},
 					{
@@ -234,7 +234,7 @@ export const SidebarMagic = [
 				collapsed: true,
 				items: [
 					{
-						text: 'Мистические заклинания',
+						text: 'Список заклинаний',
 						link: '/magic/arcane/arcane-spells',
 					},
 					{
@@ -341,7 +341,7 @@ export const SidebarAdventures = [
 						link: '/adventures/running-adventures/handling-pcs',
 					},
 					{
-						text: 'Проведение игры',
+						text: 'Ведение игры',
 						link: '/adventures/running-adventures/running-the-game',
 					},
 					{
