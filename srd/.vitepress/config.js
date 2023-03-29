@@ -37,7 +37,7 @@ export default defineConfig({
 			next: 'Далее',
 		},
 		outline: [2, 3],
-		outlineTitle: 'Содержание',
+		outlineTitle: 'На странице',
 		darkModeSwitchLabel: 'Оформление',
 		sidebarMenuLabel: 'Содержание',
 		returnToTopLabel: 'Наверх',
