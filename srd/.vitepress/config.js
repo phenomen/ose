@@ -8,7 +8,7 @@ export default defineConfig({
 	description: 'Old School Essentials на русском языке.',
 	head: [
 		['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
-		['script', { src: 'https://cdn.vercel-insights.com/v1/script.debug.js' }],
+		['script defer', { src: '/_vercel/insights/script.js' }],
 	],
 
 	// 404 on Vercel?
