@@ -8,4 +8,5 @@ export default {
 		DefaultTheme.enhanceApp(ctx);
 		ctx.app.component('Coin', Coin);
 	},
+	head: [['script', { src: 'https://cdn.vercel-insights.com/v1/script.debug.js' }]],
 };
