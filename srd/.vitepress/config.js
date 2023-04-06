@@ -6,7 +6,10 @@ export default defineConfig({
 	lang: 'ru-RU',
 	title: 'OSE SRD',
 	description: 'Old School Essentials на русском языке.',
-	head: [['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }]],
+	head: [
+		['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
+		['script', { src: 'https://cdn.vercel-insights.com/v1/script.debug.js' }],
+	],
 
 	// 404 on Vercel?
 	cleanUrls: true,
