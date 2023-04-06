@@ -1,6 +1,6 @@
 {
 	"name": "ose-ru-next",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Old School Essentials - Перевод на русский язык",
 	"scripts": {
 		"dev": "vitepress dev srd",
@@ -12,7 +12,7 @@
 	"license": "Open Game License",
 	"dependencies": {
 		"sass": "^1.60.0",
-		"vitepress": "1.0.0-alpha.63",
+		"vitepress": "1.0.0-alpha.65",
 		"vue": "^3.2.47"
 	}
 }
