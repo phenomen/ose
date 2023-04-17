@@ -8,11 +8,17 @@ export default defineConfig({
 	description: 'Old School Essentials на русском языке.',
 	head: [
 		['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
-		['script defer', { src: '/_vercel/insights/script.js' }],
+		['script', { src: '/_vercel/insights/script.js' }],
 	],
 
-	// 404 on Vercel?
 	cleanUrls: true,
+
+	locales: {
+		root: {
+			label: 'Русский',
+			lang: 'ru',
+		},
+	},
 
 	themeConfig: {
 		siteTitle: 'OSE SRD',
@@ -45,5 +51,31 @@ export default defineConfig({
 		sidebarMenuLabel: 'Содержание',
 		returnToTopLabel: 'Наверх',
 		i18nRouting: false,
+		search: {
+			provider: 'local',
+			options: {
+				locales: {
+					root: {
+						translations: {
+							button: {
+								buttonText: 'Поиск',
+								buttonAriaLabel: 'Поиск',
+							},
+							modal: {
+								noResultsText: 'Ничего не найдено для',
+								resetButtonTitle: 'Очистить',
+								displayDetails: 'Развёрнутый список',
+								footer: {
+									selectText: 'выбрать',
+									navigateText: 'навигация',
+									closeText: 'закрыть',
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		//offlineSearch: true,
 	},
 });
