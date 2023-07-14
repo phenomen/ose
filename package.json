@@ -11,9 +11,9 @@
 	"author": "phenomen#1337",
 	"license": "Open Game License",
 	"dependencies": {
-		"@vercel/analytics": "^0.1.11",
-		"sass": "^1.62.1",
-		"vitepress": "1.0.0-alpha.75",
-		"vue": "^3.2.47"
+		"@vercel/analytics": "^1.0.1",
+		"sass": "^1.63.6",
+		"vitepress": "1.0.0-beta.5",
+		"vue": "^3.3.4"
 	}
 }
