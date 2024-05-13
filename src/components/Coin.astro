@@ -1,0 +1,42 @@
+---
+interface Props {
+  v: string;
+  t?: "p" | "c" | "e" | "s" | "g";
+}
+
+const { v = "0", t  = "g" } = Astro.props;
+const value = Number(v).toLocaleString("ru-RU");
+const coinTypes: Record<string, string> = {
+  p: 'пм',
+  c: 'мм',
+  e: 'эм',
+  s: 'см',
+};
+---
+
+<span style="white-space: nowrap; ">
+{ v !== "0" && <span style="font-weight: 600; font-size: 0.9rem">{value}</span> }
+  <span class="coin" class:list={t}>
+    {coinTypes[t] || 'зм'}
+  </span>
+</span>
+
+<style>
+  .coin {
+    color: black;
+    font-weight: 700;
+    font-size: 0.7rem;
+    border-radius: 100%;
+    margin: 0px;
+    width: 21px;
+    line-height: 21px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .p { background-color: #94a3b8; }
+  .g { background-color: #fcd34d; }
+  .e { background-color: #7dd3fc; }
+  .s { background-color: #cbd5e1; }
+  .c { background-color: #d97706; }
+</style>

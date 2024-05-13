@@ -1,19 +1,20 @@
 {
-	"name": "ose-ru",
-	"version": "1.0.5",
-	"description": "Old School Essentials - Перевод на русский язык",
-	"scripts": {
-		"dev": "vitepress dev srd",
-		"build": "vitepress build srd",
-		"serve": "vitepress serve srd"
-	},
-	"keywords": [],
-	"author": "phenomen#1337",
-	"license": "Open Game License",
-	"dependencies": {
-		"@vercel/analytics": "^1.0.1",
-		"sass": "^1.63.6",
-		"vitepress": "1.0.0-beta.5",
-		"vue": "^3.3.4"
-	}
+  "name": "ose-starlight",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.6.0",
+    "@astrojs/starlight": "^0.22.2",
+    "@fontsource-variable/inter": "^5.0.18",
+    "astro": "^4.8.3",
+    "sharp": "^0.33.3",
+    "typescript": "^5.4.5"
+  }
 }

@@ -1,0 +1,50 @@
+---
+title: Old-School Essentials
+head:
+  - tag: title
+    content: Перевод Old-School Essentials
+template: splash
+hero:
+  name: Old-School Essentials на русском языке
+  tagline: Опасные чудовища и хитроумные ловушки, глубокие подземелья и зловещие планы, волшебные сокровища и захватывающие приключения. Играйте так, как было задумано основателями ролевых игр.
+  actions:
+    - text: Персонажи
+      link: /characters/
+      variant: primary
+    - text: Магия
+      link: /magic/
+      variant: primary
+    - text: Приключения
+      link: /adventures/
+      variant: primary
+    - text: Чудовища
+      link: /monsters/
+      variant: primary
+    - text: Сокровища
+      link: /treasures/
+      variant: primary
+---
+
+import { CardGrid, Card } from "@astrojs/starlight/components";
+
+<CardGrid>
+  <Card title="Дух классики" icon="open-book">
+    Опасные чудовища и хитроумные ловушки, глубокие подземелья и зловещие планы,
+    желанные сокровища и захватывающие приключения. Играйте так, как было
+    задумано основателями ролевых игр.
+  </Card>
+  <Card title="Совместимость" icon="puzzle">
+    Полная совместимость с Basic/Expert правилами открывает вам тысячи
+    приключений, бестиариев, сборников классов, заклинаний и других материалов,
+    созданных за 40 лет существования B/X.
+  </Card>
+  <Card title="Обновлённый формат" icon="document">
+    Правила были оформлены для удобства чтения и навигации. Ошибки были
+    исправлены, а разночтения переписаны для однозначного трактования. «Старая
+    школа» никогда ещё не была настолько доступной
+  </Card>
+  <Card title="Корректный перевод" icon="translate">
+    Перевод терминологии основан на лучших официальных локализациях ролевых игр
+    от ведущих издателей на русском языке.
+  </Card>
+</CardGrid>

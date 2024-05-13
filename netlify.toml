@@ -1,9 +1,0 @@
-[build.environment]
-  NODE_VERSION = "19"
-
-[build]
-  publish = "srd/.vitepress/dist"
-  command = "pnpm build"
-
-[build.processing.html]
-  pretty_urls = true
