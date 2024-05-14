@@ -47,7 +47,7 @@
 }
 
 html {
-    scroll-padding-top: 6rem !important;
+    scroll-padding-top: 6.5rem !important;
 }
 
 .sl-markdown-content {
@@ -65,7 +65,7 @@ html {
         background-clip: content-box;
         font-size: 1.2rem;
         line-height: 2rem;
-        margin-top: 2.5rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         border-left: 4px solid var(--sl-color-accent-low);
     }
