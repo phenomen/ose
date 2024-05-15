@@ -10,8 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.6.0",
-    "@astrojs/starlight": "^0.22.2",
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/starlight": "^0.22.3",
     "@fontsource-variable/inter": "^5.0.18",
     "astro": "^4.8.3",
     "sharp": "^0.33.3",

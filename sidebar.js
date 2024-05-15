@@ -346,7 +346,7 @@ export const SidebarAdventures = {
 					link: "/adventures/running-adventures/monsters-and-npcs/",
 				},
 				{
-					label: "Создание сценариев",
+					label: "Сценарии приключений",
 					link: "/adventures/running-adventures/adventure-scenarios/",
 				},
 				{
@@ -358,7 +358,7 @@ export const SidebarAdventures = {
 					link: "/adventures/running-adventures/designing-a-wilderness/",
 				},
 				{
-					label: "Создание поселений",
+					label: "Создание стартового города",
 					link: "/adventures/running-adventures/designing-a-base-town/",
 				},
 				{
