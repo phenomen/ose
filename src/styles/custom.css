@@ -75,6 +75,13 @@ h1 {
         border-left: 4px solid var(--sl-color-accent-low);
     }
 
+    & h4 {
+        text-transform: uppercase;
+        color: var(--sl-color-accent-high) !important;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
 
     & blockquote {
         font-style: italic;
