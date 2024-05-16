@@ -407,7 +407,7 @@ export const SidebarMonsters = {
 			collapsed: true,
 			items: [
 				{
-					label: "Другие группы авантюристов",
+					label: "Конкурирующие группы авантюристов",
 					link: "/monsters/npc-encounters/adventuring-parties/",
 				},
 				{
