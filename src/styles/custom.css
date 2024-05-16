@@ -56,14 +56,14 @@ h1 {
 
 .sl-markdown-content {
 
-    & h2 {
+    h2 {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.7rem;
         color: var(--sl-color-gray-2);
     }
 
-    & h3 {
+    h3 {
         color: var(--sl-color-accent-high) !important;
         background-color: var(--sl-color-accent-low) !important;
         font-size: 1.5rem;
@@ -75,7 +75,7 @@ h1 {
         border-left: 4px solid var(--sl-color-accent-low);
     }
 
-    & h4 {
+    h4 {
         text-transform: uppercase;
         color: var(--sl-color-accent-high) !important;
         font-weight: 700;
@@ -83,22 +83,33 @@ h1 {
     }
 
 
-    & blockquote {
+    blockquote {
         font-style: italic;
         border-left: 4px solid var(--sl-color-accent);
     }
 
-    & table {
+    table {
         font-size: 0.9rem;
     }
 
-    & td {
+    td {
         &:nth-child(1) {
             font-weight: 600;
         }
     }
 
+    .starlight-aside__icon {
+        display: none;
+    }
+
+    /*
+    h3:has(.starlight-aside) {
+        color: white
+    }
+    */
 }
+
+
 
 .link-title {
     font-size: 1.1rem;

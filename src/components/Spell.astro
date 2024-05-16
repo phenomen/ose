@@ -1,0 +1,42 @@
+---
+import { getEntryBySlug } from "astro:content";
+
+interface Props {
+  id: string;
+}
+
+const { id } = Astro.props;
+
+const entry = await getEntryBySlug("spells", id);
+
+if (!entry) {
+  throw new Error("Spell not found!");
+}
+
+const { Content } = await entry.render();
+const { name, original, type, level, duration, range } = entry.data;
+
+const slugifyId = name.toLowerCase().replace(/\s+/g, "-");
+---
+
+<div style="margin-bottom: 3rem;">
+  <h2 id={slugifyId}>{name}</h2>
+
+  <div
+    style="display: flex; flex-direction: column; background-color: var(--sl-color-accent-low); padding: 0.5rem 1rem; border-left: 4px solid var(--sl-color-accent);"
+  >
+    <span>
+      <em>
+        {type === "arcane" ? "Мистическое" : "Божественное"} заклинание {
+          level
+        }-го круга</em
+      >
+    </span>
+
+    <span><strong>Длительность:</strong> {duration}</span>
+
+    <span><strong>Дистанция:</strong> {range}</span>
+  </div>
+
+  <Content />
+</div>
