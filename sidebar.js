@@ -422,8 +422,9 @@ export const SidebarMonsters = {
 export const SidebarTreasures = {
 	label: "Книга «Сокровища»",
 	collapsed: true,
-	link: "/treasures/",
-	items: [],
+	items: [
+		{ label: "Содержание", link: "/treasures/" },
+	],
 };
 
 export const SidebarExtras = {

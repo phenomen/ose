@@ -1,6 +1,8 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import starlightLinksValidator from "starlight-links-validator";
+//import starlightLinksValidator from "starlight-links-validator";
+import starlightMultiSidebar from "@lorenzo_lewis/starlight-multi-sidebar";
+
 import {
 	SidebarCharacters,
 	SidebarAdventures,
@@ -15,7 +17,9 @@ export default defineConfig({
 	site: "https://ose.ruleplaying.com",
 	integrations: [
 		starlight({
-			//plugins: [starlightLinksValidator()],
+			plugins: [/*starlightLinksValidator(),*/ starlightMultiSidebar({
+				switcherStyle: "dropdown",
+			  })],
 			title: "Old-School Essentials",
 			social: {
 				github: "https://github.com/phenomen/ose",

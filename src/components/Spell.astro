@@ -15,12 +15,10 @@ if (!entry) {
 
 const { Content } = await entry.render();
 const { name, original, type, level, duration, range } = entry.data;
-
-const slugifyId = name.toLowerCase().replace(/\s+/g, "-");
 ---
 
 <div style="margin-bottom: 3rem;">
-  <h2 id={slugifyId}>{name}</h2>
+  <slot />
 
   <div
     style="display: flex; flex-direction: column; background-color: var(--sl-color-accent-low); padding: 0.5rem 1rem; border-left: 4px solid var(--sl-color-accent);"
