@@ -1,5 +1,5 @@
 ---
-import { getEntryBySlug } from "astro:content";
+import { getEntry, render   } from "astro:content";
 
 interface Props {
   id: string;
@@ -7,13 +7,13 @@ interface Props {
 
 const { id } = Astro.props;
 
-const entry = await getEntryBySlug("spells", id);
+const entry = await getEntry ("spells", id);
 
 if (!entry) {
   throw new Error("Spell not found!");
 }
 
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 const { name, original, type, level, duration, range } = entry.data;
 ---
 
