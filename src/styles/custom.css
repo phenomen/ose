@@ -57,7 +57,7 @@ h1 {
 .sl-markdown-content {
 
     h2 {
-        text-transform: uppercase;
+
         font-weight: 700;
         font-size: 1.7rem;
         color: var(--sl-color-gray-2);
@@ -73,6 +73,7 @@ h1 {
         margin-top: 1rem;
         margin-bottom: 1rem;
         border-left: 4px solid var(--sl-color-accent-low);
+
     }
 
     h4 {
