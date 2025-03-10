@@ -1,129 +1,122 @@
 :root {
-    --sl-font: 'Inter Variable', "Arial", "Helvetica", sans-serif;
-    --sl-text-6xl: 3rem;
+  --sl-font: "Inter Variable", "Arial", "Helvetica", sans-serif;
+  --sl-text-6xl: 3rem;
 
-    --ose-brand: #99bb8b;
-    --ose-brand-light: #d8e9d2;
-    --ose-brand-lighter: #eef5ec;
-    --ose-brand-dark: #638854;
-    --ose-brand-darker: #2a2e29;
+  --ose-brand: #99bb8b;
+  --ose-brand-light: #d8e9d2;
+  --ose-brand-lighter: #eef5ec;
+  --ose-brand-dark: #638854;
+  --ose-brand-darker: #2a2e29;
 
-    --sl-color-accent-low: #2a2e29;
-    --sl-color-accent: #638854;
-    --sl-color-accent-high: #99bb8b;
-    --sl-color-white: #ffffff;
-    --sl-color-gray-1: #eef5ec;
-    --sl-color-gray-2: #d8e9d2;
-    --sl-color-gray-3: #888b96;
-    --sl-color-gray-4: #545861;
-    --sl-color-gray-5: #353841;
-    --sl-color-gray-6: #24272f;
-    --sl-color-black: #17181c;
-    --sl-color-text: #ffffff;
+  --sl-color-accent-low: #2a2e29;
+  --sl-color-accent: #638854;
+  --sl-color-accent-high: #99bb8b;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #eef5ec;
+  --sl-color-gray-2: #d8e9d2;
+  --sl-color-gray-3: #888b96;
+  --sl-color-gray-4: #545861;
+  --sl-color-gray-5: #353841;
+  --sl-color-gray-6: #24272f;
+  --sl-color-black: #17181c;
+  --sl-color-text: #ffffff;
 
-    --sl-color-blue-high: #d8e9d2;
-    --sl-color-blue: #638854;
-    --sl-color-blue-low: #2a2e29;
+  --sl-color-blue-high: #d8e9d2;
+  --sl-color-blue: #638854;
+  --sl-color-blue-low: #2a2e29;
 }
 
-:root[data-theme='light'] {
-    --sl-color-accent-low: #eef5ec;
-    --sl-color-accent: #638854;
-    --sl-color-accent-high: #638854;
-    --sl-color-white: #151a13;
-    --sl-color-gray-1: #2a2e29;
-    --sl-color-gray-2: #323c2c;
-    --sl-color-gray-3: #515c4b;
-    --sl-color-gray-4: #84907e;
-    --sl-color-gray-5: #bec4bb;
-    --sl-color-gray-6: #eaf0e8;
-    --sl-color-gray-7: #f5f7f3;
-    --sl-color-black: #ffffff;
-    --sl-color-text: #151a13;
+:root[data-theme="light"] {
+  --sl-color-accent-low: #eef5ec;
+  --sl-color-accent: #638854;
+  --sl-color-accent-high: #638854;
+  --sl-color-white: #151a13;
+  --sl-color-gray-1: #2a2e29;
+  --sl-color-gray-2: #323c2c;
+  --sl-color-gray-3: #515c4b;
+  --sl-color-gray-4: #84907e;
+  --sl-color-gray-5: #bec4bb;
+  --sl-color-gray-6: #eaf0e8;
+  --sl-color-gray-7: #f5f7f3;
+  --sl-color-black: #ffffff;
+  --sl-color-text: #151a13;
 
-    --sl-color-blue-high: #2a2e29;
-    --sl-color-blue: #638854;
-    --sl-color-blue-low: #eef5ec;
+  --sl-color-blue-high: #2a2e29;
+  --sl-color-blue: #638854;
+  --sl-color-blue-low: #eef5ec;
 }
 
 html {
-    scroll-padding-top: 7rem !important;
+  scroll-padding-top: 7rem !important;
 }
 
 h1 {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .sl-markdown-content {
+  h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: var(--sl-color-gray-2);
+  }
 
-    h2 {
+  h3 {
+    color: var(--sl-color-accent-high) !important;
+    background-color: var(--sl-color-accent-low) !important;
+    font-size: 1.5rem;
+    background-clip: content-box;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--sl-color-accent-low);
+  }
 
-        font-weight: 700;
-        font-size: 1.7rem;
-        color: var(--sl-color-gray-2);
+  h4 {
+    text-transform: uppercase;
+    color: var(--sl-color-accent-high) !important;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  blockquote {
+    font-style: italic;
+    border-left: 4px solid var(--sl-color-accent);
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  td {
+    &:nth-child(1) {
+      font-weight: 600;
     }
+  }
 
-    h3 {
-        color: var(--sl-color-accent-high) !important;
-        background-color: var(--sl-color-accent-low) !important;
-        font-size: 1.5rem;
-        background-clip: content-box;
-        font-size: 1.2rem;
-        line-height: 2rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border-left: 4px solid var(--sl-color-accent-low);
+  .starlight-aside__icon {
+    display: none;
+  }
 
-    }
-
-    h4 {
-        text-transform: uppercase;
-        color: var(--sl-color-accent-high) !important;
-        font-weight: 700;
-        font-size: 1rem;
-    }
-
-
-    blockquote {
-        font-style: italic;
-        border-left: 4px solid var(--sl-color-accent);
-    }
-
-    table {
-        font-size: 0.9rem;
-    }
-
-    td {
-        &:nth-child(1) {
-            font-weight: 600;
-        }
-    }
-
-    .starlight-aside__icon {
-        display: none;
-    }
-
-    /*
+  /*
     h3:has(.starlight-aside) {
         color: white
     }
     */
 }
 
-
-
 .link-title {
-    font-size: 1.1rem;
-    font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-
 .actions {
-    gap: 0.5rem;
+  gap: 0.5rem;
 }
 
 .action {
-    border-radius: 5px;
-    padding: 10px;
-    font-weight: 500;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
 }

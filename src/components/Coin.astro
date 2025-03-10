@@ -4,20 +4,24 @@ interface Props {
   t?: "p" | "c" | "e" | "s" | "g";
 }
 
-const { v = "0", t  = "g" } = Astro.props;
+const { v = "0", t = "g" } = Astro.props;
 const value = Number(v).toLocaleString("ru-RU");
 const coinTypes: Record<string, string> = {
-  p: 'пм',
-  c: 'мм',
-  e: 'эм',
-  s: 'см',
+  p: "пм",
+  c: "мм",
+  e: "эм",
+  s: "см",
 };
 ---
 
 <span style="white-space: nowrap; ">
-{ v !== "0" && <span style="font-weight: 600; font-size: 0.9rem">{value}</span> }
+  {
+    v !== "0" && (
+      <span style="font-weight: 600; font-size: 0.9rem">{value}</span>
+    )
+  }
   <span class="coin" class:list={t}>
-    {coinTypes[t] || 'зм'}
+    {coinTypes[t] || "зм"}
   </span>
 </span>
 
@@ -33,10 +37,20 @@ const coinTypes: Record<string, string> = {
     display: inline-block;
     text-align: center;
   }
-  
-  .p { background-color: #94a3b8; }
-  .g { background-color: #fcd34d; }
-  .e { background-color: #7dd3fc; }
-  .s { background-color: #cbd5e1; }
-  .c { background-color: #d97706; }
+
+  .p {
+    background-color: #94a3b8;
+  }
+  .g {
+    background-color: #fcd34d;
+  }
+  .e {
+    background-color: #7dd3fc;
+  }
+  .s {
+    background-color: #cbd5e1;
+  }
+  .c {
+    background-color: #d97706;
+  }
 </style>

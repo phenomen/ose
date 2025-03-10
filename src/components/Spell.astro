@@ -1,5 +1,5 @@
 ---
-import { getEntry, render   } from "astro:content";
+import { getEntry, render } from "astro:content";
 
 interface Props {
   id: string;
@@ -7,7 +7,7 @@ interface Props {
 
 const { id } = Astro.props;
 
-const entry = await getEntry ("spells", id);
+const entry = await getEntry("spells", id);
 
 if (!entry) {
   throw new Error("Spell not found!");
@@ -20,7 +20,7 @@ const { name, original, type, level, duration, range } = entry.data;
 <div style="margin-bottom: 3rem; display: flex; flex-direction: column;">
   <slot />
   <div style="color: var(--sl-color-accent);">
-    <span ><em>{original}</em></span>
+    <span><em>{original}</em></span>
     <span> &mdash; </span>
     <span>
       <em>
@@ -31,9 +31,9 @@ const { name, original, type, level, duration, range } = entry.data;
     </span>
   </div>
 
-
   <div
-    style="display: flex; flex-direction: column; background-color: var(--sl-color-accent-low); padding: 0.5rem 1rem; border-left: 4px solid var(--sl-color-accent);">
+    style="display: flex; flex-direction: column; background-color: var(--sl-color-accent-low); padding: 0.5rem 1rem; border-left: 4px solid var(--sl-color-accent);"
+  >
     <span><strong>Длительность:</strong> {duration}</span>
     <span><strong>Дистанция:</strong> {range}</span>
   </div>
