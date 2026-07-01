@@ -1,0 +1,77 @@
+@layer base, starlight, theme, components, utilities;
+
+@import "@astrojs/starlight-tailwind";
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@import "@fontsource-variable/geist/wght.css";
+@import "@fontsource-variable/playfair-display/wght.css";
+
+@theme {
+  --font-sans: "Geist Variable", "Arial", "Helvetica", sans-serif;
+  --font-serif:
+    "Playfair Display Variable", "Georgia", "Times New Roman", serif;
+
+  /* Generated accent color palettes. */
+  --color-accent-200: #aed3bc;
+  --color-accent-600: #007a49;
+  --color-accent-900: #003d22;
+  --color-accent-950: #0a2b1a;
+  /* Generated gray color palettes. */
+  --color-gray-100: #f6f6f6;
+  --color-gray-200: #eeeeee;
+  --color-gray-300: #c2c2c2;
+  --color-gray-400: #8b8b8b;
+  --color-gray-500: #585858;
+  --color-gray-700: #383838;
+  --color-gray-800: #272727;
+  --color-gray-900: #181818;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 8rem !important;
+  }
+}
+
+@layer starlight {
+  .actions {
+    @apply gap-2;
+  }
+
+  .site-title {
+    @apply sm:text-xl font-bold;
+  }
+
+  .starlight-aside--note {
+    --sl-color-asides-text-accent: var(--sl-color-accent-high);
+    --sl-color-asides-border: var(--sl-color-accent);
+    background-color: var(--sl-color-gray-6);
+  }
+
+  .sl-markdown-content {
+    h1 {
+      @apply font-serif;
+    }
+
+    h2 {
+      @apply font-bold text-2xl text-accent-600 dark:text-accent-200;
+    }
+
+    h3 {
+      @apply text-(--sl-color-accent-high) bg-(--sl-color-accent-low) bg-clip-content text-lg leading-8 my-4 border-l-4 border-(--sl-color-accent-low);
+    }
+
+    h4 {
+      @apply uppercase text-(--sl-color-accent-high) font-bold text-base;
+    }
+
+    blockquote {
+      @apply italic border-l-4 border-(--sl-color-accent);
+    }
+
+    table {
+      @apply text-sm;
+    }
+  }
+}

@@ -1,0 +1,127 @@
+---
+import type { SvgComponent } from "astro/types";
+import { Badge } from "@astrojs/starlight/components";
+
+import IconCharacters from "../assets/icons/characters.svg";
+import IconAdventures from "../assets/icons/adventures.svg";
+import IconMagic from "../assets/icons/magic.svg";
+import IconTreasures from "../assets/icons/treasures.svg";
+import IconMonsters from "../assets/icons/monsters.svg";
+import IconExtras from "../assets/icons/extras.svg";
+
+// Map each topic's link to the SVG icon that should represent it.
+// Swap any of these imports for your own `import Logo from '../assets/your-icon.svg'`.
+const topicIcons: Record<string, SvgComponent> = {
+  "/characters/": IconCharacters,
+  "/adventures/": IconAdventures,
+  "/magic/": IconMagic,
+  "/treasures/": IconTreasures,
+  "/monsters/": IconMonsters,
+  "/extras/": IconExtras,
+};
+
+const { topics } = Astro.locals.starlightSidebarTopics;
+---
+
+<ul class="topics-list">
+  {
+    topics.map((topic) => {
+      const TopicIcon = topicIcons[topic.link];
+      return (
+        <li>
+          <a
+            href={topic.link}
+            aria-current={topic.isCurrent ? "page" : false}
+            class:list={{ current: topic.isCurrent }}
+          >
+            {TopicIcon && (
+              <span class="topic-icon">
+                <TopicIcon />
+              </span>
+            )}
+            <span class="topic-label">
+              {topic.label}
+              {topic.badge && (
+                <Badge
+                  class="topic-badge"
+                  text={topic.badge.text}
+                  variant={topic.badge.variant}
+                />
+              )}
+            </span>
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>
+
+<style>
+  .topics-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .topics-list::after {
+    content: "";
+    display: block;
+    margin-top: 1rem;
+    height: 1px;
+    border-top: 1px solid var(--sl-color-hairline-light);
+  }
+
+  li + li {
+    margin-top: 0.25rem;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.4em 0.5rem;
+    color: var(--sl-color-white);
+    font-size: var(--sl-text-base);
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+
+  a:hover,
+  a:focus-visible,
+  a.current {
+    color: var(--sl-color-accent-high);
+    background-color: var(--sl-color-accent-low);
+  }
+
+  :global([data-theme="light"]) a.current {
+    color: var(--sl-color-accent);
+  }
+
+  .topic-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--sl-color-gray-4);
+  }
+
+  .topic-icon :global(svg) {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  a:is(.current, :hover, :focus-visible) .topic-icon {
+    background-color: var(--sl-color-text-accent);
+    border-color: var(--sl-color-text-accent);
+    color: var(--sl-color-text-invert);
+  }
+
+  .topic-badge {
+    margin-inline-start: 0.25em;
+  }
+</style>

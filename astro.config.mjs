@@ -1,27 +1,48 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, svgoOptimizer } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightSidebarTopics from "starlight-sidebar-topics";
 //import starlightLinksValidator from "starlight-links-validator";
-//import starlightMultiSidebar from "@lorenzo_lewis/starlight-multi-sidebar";
 
 import {
-  SidebarCharacters,
-  SidebarAdventures,
-  SidebarMonsters,
-  SidebarMagic,
-  SidebarTreasures,
-  SidebarExtras,
+  TopicCharacters,
+  TopicAdventures,
+  TopicMonsters,
+  TopicMagic,
+  TopicTreasures,
+  TopicExtras,
 } from "./sidebar.js";
+
+import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://ose.ruleplaying.com",
+  experimental: {
+    svgOptimizer: svgoOptimizer(),
+  },
   integrations: [
     starlight({
-      plugins: [],
+      plugins: [
+        starlightSidebarTopics([
+          TopicCharacters,
+          TopicAdventures,
+          TopicMagic,
+          TopicTreasures,
+          TopicMonsters,
+          TopicExtras,
+        ]),
+      ],
       title: "Old-School Essentials",
-      social: {
-        github: "https://github.com/phenomen/ose",
+      components: {
+        Sidebar: "./src/components/Sidebar.astro",
       },
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/phenomen/ose",
+        },
+      ],
       defaultLocale: "root",
       locales: {
         root: {
@@ -29,18 +50,11 @@ export default defineConfig({
           lang: "ru",
         },
       },
-      sidebar: [
-        SidebarCharacters,
-        SidebarAdventures,
-        SidebarMagic,
-        SidebarTreasures,
-        SidebarMonsters,
-        SidebarExtras,
-      ],
-      customCss: [
-        "./src/styles/custom.css",
-        "@fontsource-variable/inter/index.css",
-      ],
+      customCss: ["./src/styles/global.css"],
     }),
   ],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });

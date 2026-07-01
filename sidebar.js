@@ -1,6 +1,7 @@
-export const SidebarCharacters = {
+export const TopicCharacters = {
   label: "Книга «Персонажи»",
-  collapsed: true,
+  link: "/characters/",
+
   items: [
     { label: "Содержание", link: "/characters/" },
     {
@@ -182,9 +183,10 @@ export const SidebarCharacters = {
   ],
 };
 
-export const SidebarMagic = {
+export const TopicMagic = {
   label: "Книга «Магия»",
-  collapsed: true,
+  link: "/magic/",
+
   items: [
     { label: "Содержание", link: "/magic/" },
     {
@@ -225,6 +227,10 @@ export const SidebarMagic = {
           label: "Третий круг",
           link: "/magic/divine/divine-spells-3/",
         },
+        {
+          label: "Четвёртый круг",
+          link: "/magic/divine/divine-spells-4/",
+        },
       ],
     },
     {
@@ -248,9 +254,9 @@ export const SidebarMagic = {
   ],
 };
 
-export const SidebarAdventures = {
+export const TopicAdventures = {
   label: "Книга «Приключения»",
-  collapsed: true,
+  link: "/adventures/",
   items: [
     { label: "Содержание", link: "/adventures/" },
     {
@@ -370,9 +376,9 @@ export const SidebarAdventures = {
   ],
 };
 
-export const SidebarMonsters = {
+export const TopicMonsters = {
   label: "Книга «Чудовища»",
-  collapsed: true,
+  link: "/monsters/",
   items: [
     { label: "Содержание", link: "/monsters/" },
     {
@@ -419,16 +425,18 @@ export const SidebarMonsters = {
   ],
 };
 
-export const SidebarTreasures = {
+export const TopicTreasures = {
   label: "Книга «Сокровища»",
-  collapsed: true,
+  link: "/treasures/",
   items: [{ label: "Содержание", link: "/treasures/" }],
 };
 
-export const SidebarExtras = {
+export const TopicExtras = {
   label: "Дополнительно",
-  collapsed: true,
+  link: "/extras/",
   items: [
+    { label: "Содержание", link: "/extras/" },
+    { label: "Приключения и дополнения", link: "/extras/adventures/" },
     { label: "Бланки персонажей", link: "/extras/character-sheet/" },
     { label: "Словарь", link: "/extras/glossary/" },
     { label: "Авторы перевода", link: "/extras/translators/" },

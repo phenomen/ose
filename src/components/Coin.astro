@@ -12,45 +12,23 @@ const coinTypes: Record<string, string> = {
   e: "эм",
   s: "см",
 };
+const coinColors: Record<string, string> = {
+  p: "bg-slate-400",
+  g: "bg-amber-300",
+  e: "bg-sky-300",
+  s: "bg-slate-300",
+  c: "bg-amber-600",
+};
 ---
 
-<span style="white-space: nowrap; ">
-  {
-    v !== "0" && (
-      <span style="font-weight: 600; font-size: 0.9rem">{value}</span>
-    )
-  }
-  <span class="coin" class:list={t}>
+<span class="whitespace-nowrap">
+  {v !== "0" && <span class="text-sm font-semibold">{value}</span>}
+  <span
+    class:list={[
+      "m-0 ml-1 inline-block size-5 rounded-full text-center text-xs font-bold leading-5 text-black",
+      coinColors[t] || coinColors.g,
+    ]}
+  >
     {coinTypes[t] || "зм"}
   </span>
 </span>
-
-<style>
-  .coin {
-    color: black;
-    font-weight: 700;
-    font-size: 0.7rem;
-    border-radius: 100%;
-    margin: 0px;
-    width: 21px;
-    line-height: 21px;
-    display: inline-block;
-    text-align: center;
-  }
-
-  .p {
-    background-color: #94a3b8;
-  }
-  .g {
-    background-color: #fcd34d;
-  }
-  .e {
-    background-color: #7dd3fc;
-  }
-  .s {
-    background-color: #cbd5e1;
-  }
-  .c {
-    background-color: #d97706;
-  }
-</style>
