@@ -15,10 +15,17 @@ if (!entry) {
 
 const { Content } = await render(entry);
 const { name, original, type, level, duration, range } = entry.data;
+
+/** Match rehype-slug / Starlight heading ids for Cyrillic titles. */
+const headingId = name
+  .toLowerCase()
+  .trim()
+  .replace(/\s+/g, "-")
+  .replace(/[^\p{L}\p{N}-]+/gu, "");
 ---
 
 <div style="margin-bottom: 3rem; display: flex; flex-direction: column;">
-  <slot />
+  <h2 id={headingId}>{name}</h2>
   <div style="color: var(--sl-color-accent);">
     <span><em>{original}</em></span>
     <span> &mdash; </span>

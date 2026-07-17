@@ -231,6 +231,10 @@ export const TopicMagic = {
           label: "Четвёртый круг",
           link: "/magic/divine/divine-spells-4/",
         },
+        {
+          label: "Пятый круг",
+          link: "/magic/divine/divine-spells-5/",
+        },
       ],
     },
     {
@@ -248,6 +252,22 @@ export const TopicMagic = {
         {
           label: "Второй круг",
           link: "/magic/arcane/arcane-spells-2/",
+        },
+        {
+          label: "Третий круг",
+          link: "/magic/arcane/arcane-spells-3/",
+        },
+        {
+          label: "Четвёртый круг",
+          link: "/magic/arcane/arcane-spells-4/",
+        },
+        {
+          label: "Пятый круг",
+          link: "/magic/arcane/arcane-spells-5/",
+        },
+        {
+          label: "Шестой круг",
+          link: "/magic/arcane/arcane-spells-6/",
         },
       ],
     },
