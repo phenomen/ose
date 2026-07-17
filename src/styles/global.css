@@ -5,12 +5,10 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 
 @import "@fontsource-variable/geist/wght.css";
-@import "@fontsource-variable/playfair-display/wght.css";
 
 @theme {
   --font-sans: "Geist Variable", "Arial", "Helvetica", sans-serif;
-  --font-serif:
-    "Playfair Display Variable", "Georgia", "Times New Roman", serif;
+  --font-serif: "Georgia", "Times New Roman", serif;
 
   /* Generated accent color palettes. */
   --color-accent-200: #aed3bc;
@@ -55,7 +53,7 @@
     }
 
     h2 {
-      @apply font-bold text-2xl text-accent-600 dark:text-accent-200;
+      @apply font-bold text-2xl text-(--sl-color-accent-high);
     }
 
     h3 {
@@ -72,6 +70,22 @@
 
     table {
       @apply text-sm;
+
+      :is(th, td):first-child {
+        @apply pl-3;
+      }
+
+      :is(th, td):last-child {
+        @apply pr-3;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: color-mix(
+          in srgb,
+          var(--sl-color-gray-6) 55%,
+          transparent
+        );
+      }
     }
   }
 }
