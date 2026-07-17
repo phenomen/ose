@@ -448,7 +448,61 @@ export const TopicMonsters = {
 export const TopicTreasures = {
   label: "Книга «Сокровища»",
   link: "/treasures/",
-  items: [{ label: "Содержание", link: "/treasures/" }],
+  items: [
+    { label: "Содержание", link: "/treasures/" },
+    {
+      label: "1. Сокровища",
+      collapsed: true,
+      items: [
+        {
+          label: "Размещение сокровищ",
+          link: "/treasures/treasures/placing-treasure/",
+        },
+        {
+          label: "Типы сокровищ",
+          link: "/treasures/treasures/treasure-types/",
+        },
+        {
+          label: "Самоцветы и драгоценности",
+          link: "/treasures/treasures/gems-and-jewellery/",
+        },
+        {
+          label: "Волшебные предметы",
+          link: "/treasures/treasures/magic-items/",
+        },
+      ],
+    },
+    {
+      label: "2. Волшебные предметы",
+      collapsed: true,
+      items: [
+        {
+          label: "Щиты и доспехи",
+          link: "/treasures/items/armour-and-shields/",
+        },
+        {
+          label: "Разное",
+          link: "/treasures/items/miscellaneous-items/",
+        },
+        { label: "Зелья", link: "/treasures/items/potions/" },
+        { label: "Кольца", link: "/treasures/items/rings/" },
+        {
+          label: "Скипетры, посохи, жезлы",
+          link: "/treasures/items/rods-staves-wands/",
+        },
+        {
+          label: "Свитки и карты",
+          link: "/treasures/items/scrolls-and-maps/",
+        },
+        { label: "Оружие", link: "/treasures/items/weapons/" },
+        { label: "Мечи", link: "/treasures/items/swords/" },
+        {
+          label: "Разумные мечи",
+          link: "/treasures/items/sentient-swords/",
+        },
+      ],
+    },
+  ],
 };
 
 export const TopicExtras = {
