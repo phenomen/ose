@@ -11,22 +11,22 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "@fontsource-variable/geist": "^5.2.9",
-    "@fontsource-variable/playfair-display": "^5.2.8"
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/playfair-display": "^5.3.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.9",
-    "@astrojs/starlight": "^0.41.3",
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/starlight": "^0.41.7",
     "@astrojs/starlight-tailwind": "^5.0.0",
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "^7.1.0",
-    "prettier": "^3.9.5",
+    "astro": "^7.2.1",
+    "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.14.1",
     "sharp": "^0.35.3",
-    "starlight-links-validator": "^0.25.2",
+    "starlight-links-validator": "^0.25.3",
     "starlight-sidebar-topics": "^0.8.0",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
-  "packageManager": "pnpm@11.9.0+sha512.bd682d5d03fe525ef7c9fd6780c6884d1e756ac4c9c9fe00c538782824310dcf90e3ddc4f53835f06dfaebd5085e41855e0bcbb3b60de2ac5bbab89e5036f03b"
+  "packageManager": "pnpm@11.21.0+sha512.521705bce689924eac72f5a3587122f362689ef6571e55ba80076fd637c11132ecffada26fad4ea79c485bfddbfd3d5a2a5b05805a77e893de71ec8a6cca3bb1"
 }
