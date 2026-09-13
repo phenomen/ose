@@ -26,6 +26,6 @@
     "starlight-links-validator": "^0.26.0",
     "starlight-sidebar-topics": "^0.9.0",
     "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2"
+    "typescript": "6.0.3"
   }
 }
