@@ -27,22 +27,25 @@ const headingId = name
 <div style="margin-bottom: 3rem; display: flex; flex-direction: column;">
   <h2 id={headingId}>{name}</h2>
   <div style="color: var(--sl-color-accent);">
-    <span><em>{original}</em></span>
+    <span>
+      <em>{original}</em>
+    </span>
     <span> &mdash; </span>
     <span>
       <em>
-        {type === "arcane" ? "Мистическое" : "Божественное"} заклинание {
-          level
-        }-го круга</em
-      >
+        {type === "arcane" ? "Мистическое" : "Божественное"} заклинание {level}
+        -го круга
+      </em>
     </span>
   </div>
 
-  <div
-    style="display: flex; flex-direction: column; background-color: var(--sl-color-accent-low); padding: 0.5rem 1rem; border-left: 4px solid var(--sl-color-accent);"
-  >
-    <span><strong>Длительность:</strong> {duration}</span>
-    <span><strong>Дистанция:</strong> {range}</span>
+  <div style="display: flex; flex-direction: column; background-color: var(--sl-color-accent-low); padding: 0.5rem 1rem; border-left: 4px solid var(--sl-color-accent);">
+    <span>
+      <strong>Длительность:</strong> {duration}
+    </span>
+    <span>
+      <strong>Дистанция:</strong> {range}
+    </span>
   </div>
 
   <Content />

@@ -24,36 +24,34 @@ const { topics } = Astro.locals.starlightSidebarTopics;
 ---
 
 <ul class="topics-list">
-  {
-    topics.map((topic) => {
-      const TopicIcon = topicIcons[topic.link];
-      return (
-        <li>
-          <a
-            href={topic.link}
-            aria-current={topic.isCurrent ? "page" : false}
-            class:list={{ current: topic.isCurrent }}
-          >
-            {TopicIcon && (
-              <span class="topic-icon">
-                <TopicIcon />
-              </span>
-            )}
-            <span class="topic-label">
-              {topic.label}
-              {topic.badge && (
-                <Badge
-                  class="topic-badge"
-                  text={topic.badge.text}
-                  variant={topic.badge.variant}
-                />
-              )}
+  {topics.map((topic) => {
+    const TopicIcon = topicIcons[topic.link];
+    return (
+      <li>
+        <a
+          href={topic.link}
+          aria-current={topic.isCurrent ? "page" : false}
+          class:list={{ current: topic.isCurrent }}
+        >
+          {TopicIcon && (
+            <span class="topic-icon">
+              <TopicIcon />
             </span>
-          </a>
-        </li>
-      );
-    })
-  }
+          )}
+          <span class="topic-label">
+            {topic.label}
+            {topic.badge && (
+              <Badge
+                class="topic-badge"
+                text={topic.badge.text}
+                variant={topic.badge.variant}
+              />
+            )}
+          </span>
+        </a>
+      </li>
+    );
+  })}
 </ul>
 
 <style>

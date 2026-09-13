@@ -1,7 +1,7 @@
 {
   "name": "ose-starlight",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -16,17 +16,16 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
-    "@astrojs/starlight": "^0.41.7",
+    "@astrojs/starlight": "^0.42.0",
     "@astrojs/starlight-tailwind": "^5.0.0",
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "^7.2.1",
+    "astro": "^7.3.2",
     "prettier": "^3.9.6",
-    "prettier-plugin-astro": "^0.14.1",
-    "sharp": "^0.35.3",
-    "starlight-links-validator": "^0.25.3",
-    "starlight-sidebar-topics": "^0.8.0",
+    "prettier-plugin-astro": "^1.0.0",
+    "sharp": "^0.35.4",
+    "starlight-links-validator": "^0.26.0",
+    "starlight-sidebar-topics": "^0.9.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
-  },
-  "packageManager": "pnpm@11.21.0+sha512.521705bce689924eac72f5a3587122f362689ef6571e55ba80076fd637c11132ecffada26fad4ea79c485bfddbfd3d5a2a5b05805a77e893de71ec8a6cca3bb1"
+  }
 }
